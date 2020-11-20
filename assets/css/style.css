@@ -1,26 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-    margin: 0;
+
+/*------------------------General*/
+
+.uppercase {
+    text-transform: uppercase;
 }
 
-/*--------------------------Header*/
-.bg-navbar {
-    background-color: #FBF7F0;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #555555 ;
 }
 
+body,
+p {
+    width: 100%;
+    margin: 0, auto;
+    font-family: "Nunito", sans-serif;
+}
+
+/*--------------------------Navbar*/
+
+/*Also for logo in footer */
 .sitelogo {
-    height: 120px;
+    height: 100px;
     margin-left: 40px;
+    margin-top: 0;
+    
 }
 
-.nav-item {
-    padding: 30px;
-    font-family: "Nunito",sans-serif;
+.navbar {
+    padding: 10px;
     font-weight: 700;
-    color: #555555;
+    font-size: 22px;
+    letter-spacing: 1px;
+    background: #FBF7F0;
 }
 
+.navbar-nav li a span {
+    color: #555555;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.navbar-nav li a span:hover {
+    color: #799e82;
+}
+
+
+
+/*--------------------------Landing Page*/
+
+.about-section {
+    background-color: #CDC9C3 ;
+    padding: 20px;
+}
+
+.about-image img{
+    vertical-align: middle;
+    padding: 25px;
+}
+
+
+
+
+
+
+/*--------------------------Footer*/
+
+footer {
+    background-color: #555555;
+    height: 200px;
+    margin-top: 0px;
+}
+
+.footer-logo {
+    margin: 0;
+    margin-right: 10px;
+}
+.h2-heading {
+    color: #FBF7F0 ;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.social-list-col  {
+    padding-left: 0;
+    padding-right: 0;
+}
+    
+.social-list-col ul li{
+    background-color: #555555;
+}
+.social-list li {
+    border: none;
+}
+
+.social-list li a i {
+    font-size: 30px;
+    color: #CDC9C3 ;
+    margin-bottom: 5px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-list li a i:hover {
+    color: #799e82 ;
+}
 
 
 
