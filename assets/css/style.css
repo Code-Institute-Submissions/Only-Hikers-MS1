@@ -13,13 +13,14 @@ h3,
 h4,
 h5 {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: #555555 ;
 }
 
 body,
 p {
     width: 100%;
+    color: #555555;
     margin: 0, auto;
     font-family: "Nunito", sans-serif;
 }
@@ -28,7 +29,7 @@ p {
 
 /*Also for logo in footer */
 .sitelogo {
-    height: 100px;
+    height: 120px;
     margin-left: 40px;
     margin-top: 0;
     
@@ -40,6 +41,7 @@ p {
     font-size: 22px;
     letter-spacing: 1px;
     background: #FBF7F0;
+    border-bottom: 1px solid #555555;
 }
 
 .navbar-nav li a span {
@@ -57,6 +59,10 @@ p {
 
 
 /*--------------------------Landing Page*/
+.hiking-quote {
+    padding:20px;
+    font-size: 32px;
+}
 
 .about-section {
     background-color: #CDC9C3 ;
@@ -66,8 +72,21 @@ p {
 .about-image img{
     vertical-align: middle;
     padding: 25px;
+    height: 100%;
+    width: 100%;
+
 }
 
+.about-text p{
+    padding-right: 50px;
+    padding-left: 50px;
+   
+}
+
+.about-text a {
+    color: #555555;
+    font-size: 1.4rem;
+}
 
 
 
@@ -76,16 +95,19 @@ p {
 /*--------------------------Footer*/
 
 footer {
+    border-top: 1px solid #333333;
     background-color: #555555;
     height: 200px;
     margin-top: 0px;
+    width: 100%;
+    
 }
 
 .footer-logo {
     margin: 0;
     margin-right: 10px;
 }
-.h2-heading {
+.footer-heading, .footer-heading a {
     color: #FBF7F0 ;
     font-size: 22px;
     font-weight: 700;
