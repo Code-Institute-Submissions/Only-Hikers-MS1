@@ -4,8 +4,8 @@
 /*------------------------General - to be used across all pages*/
 
 html,
-body,
-p {
+body
+ {
     height: 100%;
     width: 100%;
     color: #555555;
@@ -33,16 +33,10 @@ hr {
     width: 75%;
     
 }
-/*--------------------------Navbar*/
 
-/*Also for logo in footer */
-.sitelogo {
-    min-height: 40px;
-    padding: 0 15px 5px;
-    margin-left: 40px;
-    margin-top: 0;
-    
-}
+/*--------------------------Header/ Navbar*/
+
+/*Also styled for logo in footer */
 
 .navbar {
     padding: 1.5rem;
@@ -51,7 +45,17 @@ hr {
     letter-spacing: 1px;
     background: #FBF7F0;
     border-bottom: 1px solid #555555;
+    height: auto;
+    width: auto;
 }
+.sitelogo {
+    padding: 0 1rem 1rem;
+    margin-left: 2.5rem;
+    
+    
+}
+
+
 
 
 /* Doesn't work */
@@ -67,31 +71,89 @@ hr {
 .nav-link:hover {
     color: #799e82;
 }
+/*--------------------------Footer*/
 
+footer {
+    border-top: 1px solid #333333;
+    background-color: #555555;
+    height: auto;
+    margin-top: 0px;
+    width: 100%;
+    
+}
+
+.footer-logo {
+    margin: 0;
+    margin-right: 1rem;
+}
+
+.footer-heading, .footer-heading a {
+    color: #FBF7F0 ;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+
+.footer-heading a {
+     transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.footer-heading a:hover {
+    color: #799e82 ;
+}
+
+.social-list-col  {
+    padding-left: 0;
+    padding-right: 0;
+}
+    
+.social-list-col ul li{
+    background-color: #555555;
+}
+.social-list li {
+    border: none;
+}
+
+.social-list li a i {
+    font-size: 2rem;
+    border: none;
+    color: #CDC9C3 ;
+    padding-bottom: 1rem;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-list li a i:hover {
+    color: #799e82 ;
+}
 
 /*--------------------------Fixed image background Page with Modal*/
 
 .subscription-container {
     height: 100%;
     width: 100%;
-    background: url("../images/index.html-images/image2.jpg") no-repeat center center;
+    background: url("../images/index.html-images/image4.jpg") no-repeat center center;
     background-size: cover;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 3rem;
-
-     
-    
+    padding-bottom: 3rem;  
 }
 
 .subscription-jumbotron {
     padding-bottom: 1rem;
     background-color: transparent;
-    
-    
-        
+            
+}
+.subscription-jumbotron h1, .subscription-jumbotron h3 {
+    color: #282626;
 }
 
 .modal.content {
@@ -104,7 +166,8 @@ hr {
 }
 
 .subscribe-btn {
-    background-color: #D9E4DD ;
+    background-color: #FBF7F0  ;
+    color: #555555;
     border-color: #555555;
     font-weight: 600;
     display: inline-block;
@@ -113,7 +176,8 @@ hr {
 }
 
 .subscribe-btn:hover{
-    background-color: #799e82 ;
+    background-color: #555555 ;
+    color: #FBF7F0 ;
 }
 
 /*--------------------------Landing Page*/
@@ -163,7 +227,6 @@ hr {
 }
 
 
-
 .img-thumbnail {
     background-color: #FBF7F0 ;
 }
@@ -171,70 +234,13 @@ hr {
 .gallery-h2, .gallery-heading {
     padding: 20px 0 20px 0;
 }
-/*--------------------------Footer*/
 
-footer {
-    border-top: 1px solid #333333;
-    background-color: #555555;
-    height: auto;
-    margin-top: 0px;
-    width: 100%;
-    
+/*-----------------------Contact Page*/
+
+.contact-heading-container {
+    background-color: #CDC9C3  ;
+    padding: 30px;
 }
-
-.footer-logo {
-    margin: 0;
-    margin-right: 10px;
-}
-
-.footer-heading, .footer-heading a {
-    color: #FBF7F0 ;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 20px 0px;
-    text-decoration: none;
-}
-
-.footer-heading a {
-     transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.footer-heading a:hover {
-    color: #799e82 ;
-}
-
-.social-list-col  {
-    padding-left: 0;
-    padding-right: 0;
-}
-    
-.social-list-col ul li{
-    background-color: #555555;
-}
-.social-list li {
-    border: none;
-}
-
-.social-list li a i {
-    font-size: 2rem;
-    border: none;
-    color: #CDC9C3 ;
-    padding-bottom: 1rem;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.social-list li a i:hover {
-    color: #799e82 ;
-}
-
-
-
 
 
 

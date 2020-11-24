@@ -87,6 +87,9 @@ The colors are as follows from top to bottom:
     <img src="assets/uxd/colorScheme/colorHuntPalette.png" alt="color palette" title="Color Palette" width="600" height="400">
 </h1>
 
+
+I used #282626 for my headings across the jumbotron as #555555 didn't create enough of a contrast against the image of the sea and sky.
+
 ### 3. Logo
 
 I used <a href="https://www.freelogodesign.org/">Free Logo Design</a> , a free website to make my logo for my website. 

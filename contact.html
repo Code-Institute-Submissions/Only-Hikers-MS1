@@ -44,7 +44,49 @@
 
 <!-------Contact Form-------->
 
-<div class="container-fluid">
+
+
+<div class="container-fluid contact-heading-container">
+<div class="row contact-heading text-center">
+    <div class="col-12">
+        <h2>Want to get in touch?</h2>
+        <h5>Please leave your name and email in the form below if you have any questions or queries about hiking or just want to say hello.</h5>
+    </div>
+</div>
+
+<hr>
+
+<!------- Taken from Bootstrap form component------>
+<div class="container-fluid contact-form-container">
+    <div class="row">
+        <div class="col-12">
+            <form>
+                <div class="form-group">
+                    <label for="InputName"><h5>Full Name:</h5></label>
+                    <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp" required>
+                     
+                </div>
+
+                <div class="form-group">
+                    <label for="InputEmail"><h5>Email address:</h5></label>
+                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1"><h5>Message / Comment:</h5></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn subscribe-btn">Submit</button>
+
+                
+            </form>
+            
+    
+        </div>
+    </div>
+</div>
+
 
 
 </div>
@@ -55,20 +97,21 @@
             <a class="footer-logo" href="index.html"><img class="sitelogo hvr-grow" src="assets/uxd/logo/onlyhikerslogo.png" alt="Only Hikers Logo"></a>
         </div>
         
-        <div class="col-12 col-sm-6">
-            <h2 class="footer-heading"><a href="contact.html">Connect with us</a></h2> <!--Add connect as an achor tag to contact page?-->
-        </div>
+
         
-        <div class="col-12 col-sm-6 social-list-col">
+        <div class="col-12 col-sm-12 social-list-col">
             <ul class="list-group list-group-horizontal social-list">
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook hvr-icon"> </i></li>
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram hvr-icon"></i></li>
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter hvr-icon"> </i></li>
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.gmail.com" target="_blank"><i class="fab fa-google-plus-g hvr-icon"></i></li>
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest hvr-icon"></i></li>
+                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook hvr-icon"> </i></li>
+                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram hvr-icon"></i></li>
+                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter hvr-icon"> </i></li>
+                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.gmail.com" target="_blank" rel="noopener"><i class="fab fa-google-plus-g hvr-icon"></i></li>
+                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.pinterest.com" target="_blank" rel="noopener"><i class="fab fa-pinterest hvr-icon"></i></li>
             </ul>
         </div>
 
+        <div class="col-12 col-sm-12">
+            <h2 class="footer-heading"><a href="contact.html">Contact us</a></h2> 
+        </div>
         
           
     </div>
