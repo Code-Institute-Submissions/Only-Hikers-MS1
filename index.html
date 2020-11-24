@@ -18,9 +18,9 @@
 <body>
 
 <!------- Navbar -------> 
-<!-----Bootstrap component used-->
-<nav class="navbar navbar-expand-md navbar-light sticky-top uppercase">
-<div class="container-fluid">
+<!-----Bootstrap component used------>
+<nav class="navbar navbar-expand-sm navbar-light fixed-top uppercase">
+
     <a class="navbar-brand" href="index.html"><img class="sitelogo hvr-grow" src="assets/uxd/logo/onlyhikerslogo.png" alt="Only Hikers Logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,27 +39,47 @@
         
         </ul>
     </div>
-</div>
+
 </nav>
 <!-------- End of Navbar ------->
 
-<!-------- Landing Page Section ------->
+<!--Full screen background image with subcribe modal-->
 
+<div class="container-fluid subscription-container">
+    <div class="row">
+        <div class="col-12">
+            <div class="no-gutters jumbotron subscription-jumbotron align-content-center text-center uppercase">
+                <h1>Subscribe today</h1>
+                <h3 >Click below to receive weekly newsletters</h3>
+
+                <button type="button" class="subscribe-btn my-3 uppercase" data-toggle="modal" data-target="#subscribeModal"><strong>Subscribe!</strong></button>
+            
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--------Quote and About Section ------->
+<section>
+<hr>
 <div class="container-fluid about-section">
     <div class="row text-center">
-        <div class="col">
+        <div class="col-12">
             <h1 class="hiking-quote">"<i>It’s not the mountain we conquer, but ourselves.</i>" ~ Sir Edmund Hillary</h1>
         </div>
     </div>
+</div>
 
     <hr>
 
     <div class="row no-gutters">
-        <div class="col-sm-6 text-center about-image">
-            <img class="img-fluid" src="assets/images/index.html-images/aboutimage.jpg" alt="Only Hikers Photo" class="img-responsive">
+        <div class="col-12 col-sm-6 text-center about-image">
+            <img src="assets/images/index.html-images/aboutimage.jpg" class="img-fluid rounded-circle my-2"  alt="Only Hikers Photo" >
             
         </div>
-        <div class="col-md-6  text-center about-text">
+        <div class="col-12 col-sm-6  text-center about-text">
             <h2 class="about-heading uppercase">About Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -82,7 +102,7 @@
                 <p>
                 Please feel free to <a href="contact.html"><strong>contact us</strong></a> with any questions or comments.
                 </p>
-                <!--Modal component from Bootstrap-->
+                
 
             
 
@@ -92,21 +112,51 @@
 
     </div>
 </div>
-<!--subscribe-->
+</section>
 
+<!-------------------Modal from Bootstrap and Code Institute Bootstrap Whiskey videos-->>
+
+ <div class="modal" tabindex="-1" role="dialog" id="subscribeModal">
+    <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title uppercase text-center">Subscribe today</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="InputName"><h5 class="modal-headings">Name:</h5></label>
+                            <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Enter name" required>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail1"><h5 class="modal-headings">Email address:</h5></label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+
+                        <button type="submit" class="btn subscribe-btn uppercase"><strong>Subscribe</strong></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!--Footer-->
-<footer class="container-fluid footer-bg">
+<footer class="container-fluid footer-container">
     <div class="row text-center ">
-        <div class="col-12">
+        <div class="col-12 col-sm-12">
             <a class="footer-logo" href="index.html"><img class="sitelogo hvr-grow" src="assets/uxd/logo/onlyhikerslogo.png" alt="Only Hikers Logo"></a>
         </div>
-        <div class="col-12">
+        
+        <div class="col-12 col-sm-6">
             <h2 class="footer-heading"><a href="contact.html">Connect with us</a></h2> <!--Add connect as an achor tag to contact page?-->
-
-            
         </div>
-        <div class="col-sm-12 social-list-col">
+
+        <div class="col-12 col-sm-6 social-list-col">
             <ul class="list-group list-group-horizontal social-list">
                 <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook hvr-icon"> </i></li>
                 <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram hvr-icon"></i></li>
@@ -122,6 +172,8 @@
         
     
 </footer>
+
+
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
