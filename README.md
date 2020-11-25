@@ -89,6 +89,7 @@ The colors are as follows from top to bottom:
 
 
 I used #282626 for my headings across the jumbotron as #555555 didn't create enough of a contrast against the image of the sea and sky.
+I also ended up using #3f3f3c across the headings and body of the html content as it tied in perfectly with a colour from the logo.
 
 ### 3. Logo
 

@@ -42,9 +42,7 @@
 </div>
 </nav>
 
-<!-------Contact Form-------->
-
-
+<!------------Contact Form------------->
 
 <div class="container-fluid contact-heading-container">
 <div class="row contact-heading text-center">
@@ -58,24 +56,24 @@
 
 <!------- Taken from Bootstrap form component------>
 <div class="container-fluid contact-form-container">
-    <div class="row">
-        <div class="col-12">
-            <form>
+    <div class="row justify-content-center no-gutters">
+        <div class="col-12 col-md-9 col-lg-6">
+            <form class="contact-form rounded-right">
                 <div class="form-group">
                     <label for="InputName"><h5>Full Name:</h5></label>
-                    <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp" required>
+                    <input type="text" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Please enter your name here" required>
                      
                 </div>
 
                 <div class="form-group">
                     <label for="InputEmail"><h5>Email address:</h5></label>
-                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Please enter your email address here" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone.</small>
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1"><h5>Message / Comment:</h5></label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="FormControlTextarea"><h5>Message / Comment:</h5></label>
+                    <textarea class="form-control" id="FormControlTextarea" rows="3" placeholder="Please enter your message here" required></textarea>
                 </div>
                 <button type="submit" class="btn subscribe-btn">Submit</button>
 

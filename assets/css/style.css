@@ -8,7 +8,7 @@ body
  {
     height: 100%;
     width: 100%;
-    color: #555555;
+    color: ##555555;
     margin: 0, auto;
     font-family: "Nunito", sans-serif;
 }
@@ -20,7 +20,7 @@ h4,
 h5 {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
-    color: #555555 ;
+    color: ##3f3f3c ;
 }
 
 .uppercase {
@@ -29,7 +29,7 @@ h5 {
 
 
 hr {
-    border: 1px solid #555555;
+    border: 1px solid #3f3f3c;
     width: 75%;
     
 }
@@ -39,28 +39,28 @@ hr {
 /*Also styled for logo in footer */
 
 .navbar {
-    padding: 1.5rem;
+    
     font-weight: 700;
     font-size: 1.5em;
     letter-spacing: 1px;
     background: #FBF7F0;
-    border-bottom: 1px solid #555555;
+    border-bottom: 1px solid #3f3f3c;
     height: auto;
     width: auto;
 }
+
+/*STYLE */
 .sitelogo {
-    padding: 0 1rem 1rem;
-    margin-left: 2.5rem;
+     
     
     
 }
-
 
 
 
 /* Doesn't work */
 
-.nav-link {
+.navbar-nav a .nav-link {
     color: #555555;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -107,8 +107,7 @@ footer {
 }
 
 .social-list-col  {
-    padding-left: 0;
-    padding-right: 0;
+   padding: none;
 }
     
 .social-list-col ul li{
@@ -133,6 +132,9 @@ footer {
     color: #799e82 ;
 }
 
+.footer-contact-us-link {
+    padding: none;
+}
 /*--------------------------Fixed image background Page with Modal*/
 
 .subscription-container {
@@ -167,16 +169,16 @@ footer {
 
 .subscribe-btn {
     background-color: #FBF7F0  ;
-    color: #555555;
-    border-color: #555555;
+    color: #799e82 ;
+    border-color: #799e82 ;
     font-weight: 600;
     display: inline-block;
-    border-radius: 1em;
+    
     transition: all 0.5s;
 }
 
 .subscribe-btn:hover{
-    background-color: #555555 ;
+    background-color: #799e82  ;
     color: #FBF7F0 ;
 }
 
@@ -238,11 +240,15 @@ footer {
 /*-----------------------Contact Page*/
 
 .contact-heading-container {
-    background-color: #CDC9C3  ;
-    padding: 30px;
+    background: url("../images/index.html-images/image2.jpg") no-repeat center center;
+    padding: 2rem;
 }
 
-
+.contact-form {
+    border: 1px solid #555555;
+    padding: 1rem;
+    background-color: #D9E4DD ;
+}
 
 /* 
 Bootstrap breakpoints:
