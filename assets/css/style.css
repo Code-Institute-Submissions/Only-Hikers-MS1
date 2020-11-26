@@ -8,7 +8,7 @@ body
  {
     height: 100%;
     width: 100%;
-    color: ##555555;
+    color: #555555;
     margin: 0, auto;
     font-family: "Nunito", sans-serif;
 }
@@ -19,8 +19,9 @@ h3,
 h4,
 h5 {
     font-family: "Roboto", sans-serif;
+    margin: 0;
     font-weight: 600;
-    color: ##3f3f3c ;
+    color: #3f3f3c ;
 }
 
 .uppercase {
@@ -77,8 +78,10 @@ footer {
     border-top: 1px solid #333333;
     background-color: #555555;
     height: auto;
+    padding-top: 1rem;
     margin-top: 0px;
     width: 100%;
+    
     
 }
 
@@ -90,12 +93,14 @@ footer {
 .footer-heading, .footer-heading a {
     color: #FBF7F0 ;
     font-size: 1.5rem;
+    height: 3rem;
     font-weight: 700;
-    margin: 20px 0px;
+    margin: 0;
     text-decoration: none;
 }
 
 .footer-heading a {
+    
      transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -107,7 +112,17 @@ footer {
 }
 
 .social-list-col  {
-   padding: none;
+    color: #ffffff;
+   padding-top: 1rem;
+   padding-bottom: 0;
+   height: 5rem;
+   
+}
+
+@media only screen and (max-width: 768px){
+    .social-list-col{
+        display: contents;
+    }
 }
     
 .social-list-col ul li{
@@ -133,14 +148,15 @@ footer {
 }
 
 .footer-contact-us-link {
-    padding: none;
+    padding-top: 0;
+    position: relative;
 }
 /*--------------------------Fixed image background Page with Modal*/
 
 .subscription-container {
     height: 100%;
     width: 100%;
-    background: url("../images/index.html-images/image4.jpg") no-repeat center center;
+    background: url("../images/index.html-images/image1.jpg") no-repeat center center;
     background-size: cover;
 
     display: flex;
@@ -170,7 +186,7 @@ footer {
 .subscribe-btn {
     background-color: #FBF7F0  ;
     color: #799e82 ;
-    border-color: #799e82 ;
+    border-color: #3f3f3c ;
     font-weight: 600;
     display: inline-block;
     
@@ -240,16 +256,26 @@ footer {
 /*-----------------------Contact Page*/
 
 .contact-heading-container {
-    background: url("../images/index.html-images/image2.jpg") no-repeat center center;
+    background: url("../images/contact.html-images/image1.jpg") no-repeat center center;
+    background-size: cover;
     padding: 2rem;
 }
 
 .contact-form {
     border: 1px solid #555555;
     padding: 1rem;
-    background-color: #D9E4DD ;
+    background-color: rgba(121, 158, 130, 0.5) ;
 }
 
+.text-muted {
+    color: #FBF7F0!important;
+    
+}
+
+.input-contact-form {
+    background-color: #FBF7F0;
+    border: 1px solid #3f3f3c;
+}
 /* 
 Bootstrap breakpoints:
 
