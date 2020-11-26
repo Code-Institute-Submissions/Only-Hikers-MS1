@@ -8,7 +8,6 @@ body
  {
     height: 100%;
     width: 100%;
-    color: #555555;
     margin: 0, auto;
     font-family: "Nunito", sans-serif;
 }
@@ -33,6 +32,7 @@ hr {
     width: 83%;
     
 }
+
 
 /*-------------------------------------Header/ Navbar*/
 
@@ -113,7 +113,7 @@ footer {
 
 /*come back to */
 @media only screen and (max-width: 768px){
-    .social-list-col{
+    ul.social-list-col{
         display: contents;
     }
 
@@ -125,6 +125,7 @@ footer {
 .social-list li {
     border: none;
 }
+
 
 .social-list li a i {
     font-size: 2rem;
@@ -148,10 +149,10 @@ footer {
 /*-------------------------------------Fixed image background Page with Modal*/
 
 .subscription-container {
-    height: 100%;
+    height: 80vh;
     width: 100%;
     padding: 0;
-    background: url("../images/index.html-images/image1.jpg") no-repeat center center;
+    background: url("../images/index.html-images/image123.jpg") no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -162,32 +163,27 @@ footer {
 
 .subscription-jumbotron {
     padding-bottom: 1rem;
-    color: #FBF7F0;
     background-color: rgba(121, 158, 130, 0.5);
-    align-self: center;
-    
+    color: #FBF7F0;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
-
+     
+   
 a.nav-link.hvr-grow:hover {
     color: #799e82 ;
 }
            
 
+@media only screen and (max-width:576px) {
+    .subscription-jumbotron{
+        background: transparent;
 
-
-.modal.content {
-    align-content: center;
-    color: #CDC9C3 ;
+    }
 }
-
-.modal-headings {
-    font-size: 1rem;
-}
-
+ 
 .subscribe-btn {
     background-color: #FBF7F0  ;
     color: #799e82 ;
@@ -203,6 +199,17 @@ a.nav-link.hvr-grow:hover {
     color: #FBF7F0 ;
 }
 
+/*---------------------------------Modal*/
+.modal.content {
+    align-content: center;
+    color: #CDC9C3 ;
+}
+
+.modal-headings {
+    font-size: 1rem;
+}
+
+
 /*------------------------------------------Landing Page*/
 .hiking-quote {
     padding:20px;
@@ -210,8 +217,8 @@ a.nav-link.hvr-grow:hover {
    
 }
 
-.about-section {
-    background-color: #CDC9C3 ;
+.quote-section {
+    background-color: #D9E4DD   ;
     padding: 30px;
    
     
@@ -246,6 +253,7 @@ a.nav-link.hvr-grow:hover {
 .gallery-container {
     background-color: #D9E4DD ;
     padding: 20px 50px 50px 50px;
+ 
     
 }
 
@@ -256,6 +264,7 @@ a.nav-link.hvr-grow:hover {
 
 .gallery-h2, .gallery-heading {
     padding: 20px 0 20px 0;
+    color: #555555 ;
 }
 
 /*-----------------------------------------Contact Page*/
@@ -286,6 +295,16 @@ a.nav-link.hvr-grow:hover {
     border: 1px solid #3f3f3c;
 }
 
+
+@media only screen and (min-width: 992px){
+    body {
+        max-width: 992px;
+        background: #D9E4DD   ;
+        margin: 0 auto;
+        
+    }
+    
+}
 
 /* 
 
