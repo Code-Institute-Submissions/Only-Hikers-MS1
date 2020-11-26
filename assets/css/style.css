@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-/*------------------------General - to be used across all pages*/
+/*----------------------------------General - to be used across all pages*/
 
 html,
 body
@@ -21,7 +21,6 @@ h5 {
     font-family: "Roboto", sans-serif;
     margin: 0;
     font-weight: 600;
-    color: #3f3f3c ;
 }
 
 .uppercase {
@@ -31,48 +30,43 @@ h5 {
 
 hr {
     border: 1px solid #3f3f3c;
-    width: 75%;
+    width: 83%;
     
 }
 
-/*--------------------------Header/ Navbar*/
+/*-------------------------------------Header/ Navbar*/
 
 /*Also styled for logo in footer */
 
 .navbar {
     
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.5em;
     letter-spacing: 1px;
     background: #FBF7F0;
     border-bottom: 1px solid #3f3f3c;
-    height: auto;
-    width: auto;
 }
 
-/*STYLE */
+
 .sitelogo {
-     
-    
-    
+     max-width: 7em;
+     max-height: auto;
+}
+
+.navbar-brand .sitelogo {
+    margin-left: 1em;
 }
 
 
-
-/* Doesn't work */
-
-.navbar-nav a .nav-link {
-    color: #555555;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.nav-link:hover {
+a.nav-link.hvr-grow {
     color: #799e82;
 }
-/*--------------------------Footer*/
+
+
+
+
+
+/*---------------------------------------Footer*/
 
 footer {
     border-top: 1px solid #333333;
@@ -81,33 +75,31 @@ footer {
     padding-top: 1rem;
     margin-top: 0px;
     width: 100%;
-    
-    
+        
 }
 
 .footer-logo {
     margin: 0;
-    margin-right: 1rem;
+    
 }
 
-.footer-heading, .footer-heading a {
+.footer-contact-us, .footer-contact-us a {
     color: #FBF7F0 ;
-    font-size: 1.5rem;
-    height: 3rem;
+    font-size: 1.2em;
+    height: 3em;
     font-weight: 700;
     margin: 0;
     text-decoration: none;
 }
 
-.footer-heading a {
-    
+.footer-contact-us a {
      transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
 
-.footer-heading a:hover {
+.footer-contact-us a:hover {
     color: #799e82 ;
 }
 
@@ -119,10 +111,12 @@ footer {
    
 }
 
+/*come back to */
 @media only screen and (max-width: 768px){
     .social-list-col{
         display: contents;
     }
+
 }
     
 .social-list-col ul li{
@@ -151,28 +145,39 @@ footer {
     padding-top: 0;
     position: relative;
 }
-/*--------------------------Fixed image background Page with Modal*/
+/*-------------------------------------Fixed image background Page with Modal*/
 
 .subscription-container {
     height: 100%;
     width: 100%;
+    padding: 0;
     background: url("../images/index.html-images/image1.jpg") no-repeat center center;
     background-size: cover;
-
     display: flex;
-    align-items: center;
     justify-content: center;
     padding-bottom: 3rem;  
 }
+   
+
 
 .subscription-jumbotron {
     padding-bottom: 1rem;
-    background-color: transparent;
-            
+    color: #FBF7F0;
+    background-color: rgba(121, 158, 130, 0.5);
+    align-self: center;
+    
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
-.subscription-jumbotron h1, .subscription-jumbotron h3 {
-    color: #282626;
+
+a.nav-link.hvr-grow:hover {
+    color: #799e82 ;
 }
+           
+
+
 
 .modal.content {
     align-content: center;
@@ -180,7 +185,7 @@ footer {
 }
 
 .modal-headings {
-    font-kerning: 1rem;
+    font-size: 1rem;
 }
 
 .subscribe-btn {
@@ -198,7 +203,7 @@ footer {
     color: #FBF7F0 ;
 }
 
-/*--------------------------Landing Page*/
+/*------------------------------------------Landing Page*/
 .hiking-quote {
     padding:20px;
     font-size: 2rem;
@@ -237,7 +242,7 @@ footer {
     color: #799e82 ; 
 }
 
-/*-------------------Gallery*/
+/*------------------------------------------Gallery*/
 .gallery-container {
     background-color: #D9E4DD ;
     padding: 20px 50px 50px 50px;
@@ -253,12 +258,13 @@ footer {
     padding: 20px 0 20px 0;
 }
 
-/*-----------------------Contact Page*/
+/*-----------------------------------------Contact Page*/
 
 .contact-heading-container {
-    background: url("../images/contact.html-images/image1.jpg") no-repeat center center;
+    background: url("../images/contact.html-images/image1.jpg") no-repeat top center;
     background-size: cover;
-    padding: 2rem;
+    height: auto%;
+    
 }
 
 .contact-form {
@@ -267,6 +273,9 @@ footer {
     background-color: rgba(121, 158, 130, 0.5) ;
 }
 
+.contact-heading {
+    color: #FBF7F0  ;
+}
 .text-muted {
     color: #FBF7F0!important;
     
@@ -276,7 +285,10 @@ footer {
     background-color: #FBF7F0;
     border: 1px solid #3f3f3c;
 }
+
+
 /* 
+
 Bootstrap breakpoints:
 
 XS devices (portrait smartphone view) < 576px
