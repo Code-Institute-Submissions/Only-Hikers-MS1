@@ -69,7 +69,9 @@
 <div class="container-fluid quote-section justify-content-center">
     <div class="row no-gutters text-center justify-content-center">
         <div class="col-12 col-md-10 col-lg-10 ">
-            <h1 class="hiking-quote">"<i>It’s not the mountain we conquer, but ourselves.</i>" ~ Sir Edmund Hillary</h1>
+            <h1 class="hiking-quote">"<i>It’s not the mountain we conquer, but ourselves.</i>" 
+            <br>
+            ~ Sir Edmund Hillary</h1>
         </div>
     </div>
 </div>
@@ -159,35 +161,41 @@
     </div>
 
 <!--Footer-->
+<!--https://stackoverflow.com/questions/37814508/order-columns-through-bootstrap4 used to help order columns across different devices-->
 <footer class="container-fluid footer-container">
-    <div class="row text-center">
-        <div class="col-12 col-sm-12">
-            <a class="footer-logo" href="index.html"><img class="sitelogo hvr-grow" src="assets/uxd/logo/onlyhikerslogo.png" alt="Only Hikers Logo"></a>
-        </div>
+    <div class="row text-center no-gutters justify-content-center">      
+         <div class="col-12 col-lg-4 order-md-1 text-center footer-address">
+            <h4 style="p-0 ">Address:</h4> 
+                <p>
+                    2 Village Rd,
+                    <br>
+                    Castleknock,
+                    <br>
+                    Dublin 15
+                </p>                    
+                <a href="tel: 086-123-4567">Phone: 086-123-4567</a>
+            </div>
         
+        
+            <div class="col-5 col-lg-4 center-text order-lg-2">
+                <a class="footer-logo" href="index.html"><img class="sitelogo hvr-grow" src="assets/uxd/logo/onlyhikerslogo.png" alt="Only Hikers Logo"></a>
+                  <h4 class="footer-contact-us mt-4 mb-0"><a href="contact.html">Contact us</a></h4> 
+            </div>
 
-        
-        <div class="col-12 col-sm-12 social-list-col">
-            <ul class="list-group list-group-horizontal social-list">
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook hvr-icon"></i></a></li>
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.instagram.com" target="_blank" rel="noopener"> <i class="fab fa-instagram hvr-icon"></i></a></li>
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter hvr-icon"></i></a></li>
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.gmail.com" target="_blank" rel="noopener"> <i class="fab fa-google-plus-g hvr-icon"></i></a></li>
-                <li class="list-group-item flex-fill "><a class="hvr-icon-grow" href="https://www.pinterest.com" target="_blank" rel="noopener"> <i class="fab fa-pinterest hvr-icon"></i></a></li>
-            </ul>
-        </div>
-
-        <div class="col-12 col-sm-12">
-            <h2 class="footer-contact-us mt-0"><a href="contact.html">Contact us</a></h2> 
-        </div>
-        
-          
+    
+            <div class="col-12 col-lg-4 social-list-col order-md-3">
+                <ul class="list-group list-group-horizontal social-list justify-content-center ">
+                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook hvr-icon"></i></a></li>
+                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.instagram.com" target="_blank" rel="noopener"> <i class="fab fa-instagram hvr-icon"></i></a></li>
+                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter hvr-icon"></i></a></li>
+                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.linkedin.com" target="_blank" rel="noopener"> <i class="fab fa-linkedin hvr-icon"></i></a></li>
+                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.pinterest.com" target="_blank" rel="noopener"> <i class="fab fa-pinterest hvr-icon"></i></a></li>
+                </ul>
+            </div>
     </div>
-        
+   
     
 </footer>
-
-
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
