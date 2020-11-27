@@ -10,6 +10,7 @@ body
     width: 100%;
     margin: 0, auto;
     font-family: "Nunito", sans-serif;
+    background: #D9E4DD ;
 }
 
 h1,
@@ -31,6 +32,13 @@ hr {
     border: 1px solid #3f3f3c;
     width: 83%;
     
+}
+
+@media screen and (min-width:992px){
+    hr{
+        width: 100%;
+    }
+            
 }
 
 
@@ -160,6 +168,20 @@ footer {
 }
    
 
+@media only screen and (min-width: 1200px){
+    .subscription-container {
+        max-width: 1200px;
+       
+        margin: 0 auto;
+                
+    }
+    .contact-heading-container {
+         max-width: 1200px;
+       
+        margin: 0 auto;
+        
+    }
+}
 
 .subscription-jumbotron {
     padding-bottom: 1rem;
@@ -218,8 +240,9 @@ a.nav-link.hvr-grow:hover {
 }
 
 .quote-section {
-    background-color: #D9E4DD   ;
+    background-color: #799e82 ;
     padding: 30px;
+    color: #555555;
    
     
 }
@@ -227,12 +250,20 @@ a.nav-link.hvr-grow:hover {
 .about-image img{
     vertical-align: middle;
     padding: 25px;
+     
 }
 
-.about-text p{
+@media screen and (min-width: 1200px){
+    .about-image img{
+        max-height: 50vh;
+    }
+    
+}
+
+.about-text p, .about-heading{
     padding-right: 50px;
     padding-left: 50px;
-   
+    color: #555555;
 }
 
 .about-text a {
@@ -272,9 +303,11 @@ a.nav-link.hvr-grow:hover {
 .contact-heading-container {
     background: url("../images/contact.html-images/image1.jpg") no-repeat top center;
     background-size: cover;
-    height: auto%;
+    height: 100%;
     
 }
+
+
 
 .contact-form {
     border: 1px solid #555555;
@@ -296,15 +329,10 @@ a.nav-link.hvr-grow:hover {
 }
 
 
-@media only screen and (min-width: 992px){
-    body {
-        max-width: 992px;
-        background: #D9E4DD   ;
-        margin: 0 auto;
-        
-    }
-    
-}
+/*----------- Media Queries for responsiveness*/
+
+
+
 
 /* 
 
