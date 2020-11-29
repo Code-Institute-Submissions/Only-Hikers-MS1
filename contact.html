@@ -1,133 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      type="text/css"
+    />
 
-<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-<title>Only Hikers|Sign up today!</title>
-</head>
+    <title>Only Hikers|Sign up today!</title>
+  </head>
 
-<body>
-
-<!------- Navbar -------> 
-<!-----Bootstrap component used-->
-<nav class="navbar navbar-expand-sm navbar-light sticky-top uppercase">
-<div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img class="sitelogo hvr-grow" src="assets/uxd/logo/onlyhikerslogo.png" alt="Only Hikers Logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item  ">
-                <a class="nav-link hvr-grow" href="index.html">Home  </a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link hvr-grow " href="gallery.html">Gallery </a>
+  <body>
+    <!------- Navbar ------->
+    <!-----Bootstrap component used-->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top uppercase">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="sitelogo hvr-grow"
+            src="assets/uxd/logo/onlyhikerslogo.png"
+            alt="Only Hikers Logo"
+        /></a>
+        <button 
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link hvr-grow" href="index.html">Home </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link hvr-grow active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+              <a class="nav-link hvr-grow" href="gallery.html">Gallery </a>
             </li>
-        
-        </ul>
-    </div>
-</div>
-</nav>
-
-<!------------Contact Form------------->
-
-<div class="container-fluid contact-form-heading-container">
-    <div class="row contact-form-heading justify-content-center text-center">
-        <div class="col-12 col-sm-10 col-lg-8 ">
-            <h2 class=" mt-4">Contact us below</h2>
-            <h6>With any questions or queries about hiking or if you just want to say hello.</h6>
+            <li class="nav-item">
+              <a class="nav-link hvr-grow active" href="contact.html"
+                >Contact <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
         </div>
-    </div>
-</div>
-<hr>
+      </div>
+    </nav>
 
-<!------- Taken from Bootstrap form component------>
-<div class="container-fluid contact-form-container">
-    <div class="row justify-content-center no-gutters">
+    <!------------Contact Form------------->
+
+    <div class="container-fluid contact-form-heading-container">
+      <div class="row contact-form-heading justify-content-center text-center">
+        <div class="col-12 col-sm-10 col-lg-8">
+          <h2 class="mt-4">Contact us below</h2>
+          <h6>
+            With any questions or queries about hiking or if you just want to
+            say hello.
+          </h6>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <!------- Taken from Bootstrap form component------>
+    <div class="container-fluid contact-form-container">
+      <div class="row justify-content-center no-gutters">
         <div class="col-12 col-md-9 col-lg-6">
-            <form class="contact-form rounded-right">
-                <div class="form-group">
-                    <label for="InputName"><h5>Full Name:</h5></label>
-                    <input type="text" class="form-control input-contact-form" id="InputName" aria-describedby="nameHelp" placeholder="Please enter your name here" required>
-                     
-                </div>
+          <form class="contact-form rounded-right">
+            <div class="form-group">
+              <label for="InputName"><h5>Full Name:</h5></label>
+              <input
+                type="text"
+                class="form-control input-contact-form"
+                id="InputName"
+                aria-describedby="nameHelp"
+                placeholder="Please enter your name here"
+                required
+              />
+            </div>
 
-                <div class="form-group">
-                    <label for="InputEmail"><h5>Email address:</h5></label>
-                    <input type="email" class="form-control input-contact-form" id="InputEmail" aria-describedby="emailHelp" placeholder="Please enter your email address here" required>
-                    <small id="emailHelp" class="form-text text-muted" >We'll never share your email with anyone.</small>
-                </div>
+            <div class="form-group">
+              <label for="InputEmail"><h5>Email address:</h5></label>
+              <input
+                type="email"
+                class="form-control input-contact-form"
+                id="InputEmail"
+                aria-describedby="emailHelp"
+                placeholder="Please enter your email address here"
+                required
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone.</small
+              >
+            </div>
 
-                <div class="form-group">
-                    <label for="FormControlTextarea"><h5>Message / Comment:</h5></label>
-                    <textarea class="form-control input-contact-form" id="FormControlTextarea" rows="3" placeholder="Please enter your message here" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-lg subscribe-btn">Submit</button>
+            <div class="form-group">
+              <label for="FormControlTextarea"
+                ><h5>Message / Comment:</h5></label
+              >
+              <textarea
+                class="form-control input-contact-form"
+                id="FormControlTextarea"
+                rows="3"
+                placeholder="Please enter your message here"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg subscribe-btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
 
-                
-            </form>
-            
+    <hr />
+
+    <!--Footer-->
+    <!--https://stackoverflow.com/questions/37814508/order-columns-through-bootstrap4 used to help order columns across different devices-->
+    <footer class="container-fluid footer-container">
+      <div class="row text-center no-gutters justify-content-center">
+        <div class="col-12 col-lg-4 order-md-1 text-center footer-address">
+          <h4 style="p-0 ">Address:</h4>
+          <p>
+            2 Village Rd,
+            <br />
+            Castleknock,
+            <br />
+            Dublin 15
+          </p>
+          <a href="tel: 086-123-4567">Phone: 086-123-4567</a>
+        </div>
+
+        <div class="col-5 col-lg-4 center-text order-lg-2">
+          <h4 class="footer-contact-us mb-4">
+            <a href="contact.html">Contact us</a>
+          </h4>
+          <a class="footer-logo" href="index.html"
+            ><img
+              class="sitelogo hvr-grow"
+              src="assets/uxd/logo/onlyhikerslogo.png"
+              alt="Only Hikers Logo"
+          /></a>
 
         </div>
-    </div>
-</div>
 
-<hr>
+        <div class="col-12 col-lg-4 social-list-col order-md-3">
+          <ul
+            class="list-group list-group-horizontal social-list justify-content-center"
+          >
+            <li class="list-group-item">
+              <a
+                class="hvr-icon-grow"
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-facebook hvr-icon"></i
+              ></a>
+            </li>
+            <li class="list-group-item">
+              <a
+                class="hvr-icon-grow"
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-instagram hvr-icon"></i
+              ></a>
+            </li>
+            <li class="list-group-item">
+              <a
+                class="hvr-icon-grow"
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noopener"
+                ><i class="fab fa-twitter hvr-icon"></i
+              ></a>
+            </li>
+            <li class="list-group-item">
+              <a
+                class="hvr-icon-grow"
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-linkedin hvr-icon"></i
+              ></a>
+            </li>
+            <li class="list-group-item">
+              <a
+                class="hvr-icon-grow"
+                href="https://www.pinterest.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-pinterest hvr-icon"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
-
-<!--Footer-->
-<!--https://stackoverflow.com/questions/37814508/order-columns-through-bootstrap4 used to help order columns across different devices-->
-<footer class="container-fluid footer-container">
-    <div class="row text-center no-gutters justify-content-center">      
-         <div class="col-12 col-lg-4 order-md-1 text-center footer-address">
-            <h4 style="p-0 ">Address:</h4> 
-                <p>
-                    2 Village Rd,
-                    <br>
-                    Castleknock,
-                    <br>
-                    Dublin 15
-                </p>                    
-                <a href="tel: 086-123-4567">Phone: 086-123-4567</a>
-            </div>
-        
-        
-            <div class="col-5 col-lg-4 center-text order-lg-2">
-                <a class="footer-logo" href="index.html"><img class="sitelogo hvr-grow" src="assets/uxd/logo/onlyhikerslogo.png" alt="Only Hikers Logo"></a>
-                  <h4 class="footer-contact-us mt-4 mb-0"><a href="contact.html">Contact us</a></h4> 
-            </div>
-
-    
-            <div class="col-12 col-lg-4 social-list-col order-md-3">
-                <ul class="list-group list-group-horizontal social-list justify-content-center ">
-                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook hvr-icon"></i></a></li>
-                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.instagram.com" target="_blank" rel="noopener"> <i class="fab fa-instagram hvr-icon"></i></a></li>
-                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter hvr-icon"></i></a></li>
-                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.linkedin.com" target="_blank" rel="noopener"> <i class="fab fa-linkedin hvr-icon"></i></a></li>
-                    <li class="list-group-item "><a class="hvr-icon-grow" href="https://www.pinterest.com" target="_blank" rel="noopener"> <i class="fab fa-pinterest hvr-icon"></i></a></li>
-                </ul>
-            </div>
-    </div>
-   
-    
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
-
