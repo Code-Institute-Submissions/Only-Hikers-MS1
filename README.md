@@ -41,7 +41,7 @@ My goal for this site is to inspire and spread the word about hiking in Ireland 
 
 ## Responsive site
 
-Using <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, I got the below image showing what the site looks like across all devices.
+Using the website <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, I got the below image showing what the site looks like across all devices.
 
  ![Website Mockup](assets/uxd/mockup/am-i-responsive-mockup.PNG)
 ## User Experience
@@ -49,10 +49,10 @@ Using <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, I got the b
 #### Project Goals
 
 - To build a fully responsive website across all devices 
-- To create an easy-to-use website that is easy to navigate
+- To create an easy-to-use website that is simple to navigate
+- To set up the basic layout and content for this webpage which can be added to in the future
 - To inspire users through images of breathtaking scenery to get out and explore our beauitful country
-- To share my experiences with my users 
-- To connect with like-minded individuals who share the same passions and might teach me a thing or two
+- To have a contact form where like-minded hiking individuals or people that are keen to start can get in touch  
  
 #### User Stories
 
@@ -62,22 +62,14 @@ Using <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, I got the b
 * As a user living in Ireland, I want ideas for my next hiking getaway 
 * As a user who tends to use their mobile more than desktop, I want a webpage that is fully responsive across all devices 
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
 ## Design
 ### 1. Font
 I used <a href="https://fontpair.co/">Font Pair</a> to choose the two main fonts for my website which are
  <a href="https://fonts.google.com/specimen/Roboto">'Roboto'</a> and <a href="https://fonts.google.com/specimen/Nunito"> 'Nunito'.</a>
- I'll use Roboto for the headings of the site and Nunito for the body, both of which are very easy to read.
-
+ I'll use Roboto for the headings of the site and Nunito for the body, both of which are easy to read for the users.
 
 ### 2. Color Scheme
-I used <a href="https://colorhunt.co/palette/">Color Hunt</a> to pick the colors for my website. I wanted to pick earthy tones to tie in with the concept of hiking and nature. 
+I used <a href="https://colorhunt.co/palette/">Color Hunt</a> to pick the colors for my website. I wanted to pick earthy tones to tie in with the concept of nature and hiking. 
 The colors are as follows from top to bottom:
 
  - #D9E4DD
@@ -108,61 +100,56 @@ background so it could fit into any header color of my choosing.
 ### 4. Wireframing
 
 I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes for my project in order to plan out the layout of the webpage on both desktop and mobile devices.
-* Large device Wireframe for Home Page
-<h1 align="center">
+* Large device Wireframe for Home Page. Alternatively you can view the wireframe here : [Landing Page Desktop](assets/uxd/balsamiqWireframe/LandingPageDesktop.png)
+ and [Landing Page Mobile](assets/uxd/balsamiqWireframe/LandingPageMobile.png)
+<h1 align="left">
     <img src="assets/uxd/balsamiqWireframe/LandingPageDesktop.png" alt="wireframe1" title="Landing Page Wireframe" width="500" height="500">
-</h1>
-
-* Large device Wireframe for Gallery Page
-<h1 align="center">
-    <img src="assets/uxd/balsamiqWireframe/GalleryPageDesktop.png" alt="wireframe2" title="Gallery Page Wireframe" width="500" height="500">
-</h1>
-
-* Large device Wireframe for Contact Page
-<h1 align="center">
-    <img src="assets/uxd/balsamiqWireframe/ContactPageDesktop.png" alt="wireframe3" title="Contact Page Wireframe" width="500" height="500">
-</h1>
-
-* Mobile device Wireframe for Home Page
-<h1 align="center">
     <img src="assets/uxd/balsamiqWireframe/LandingPageMobile.png" alt="mobilew wireframe1" title="Mobile Landing Page Wireframe" width="200" height="400">
 </h1>
 
-* Mobile device Wireframe for Gallery Page
-<h1 align="center">
-    <img src="assets/uxd/balsamiqWireframe/GalleryPageMobile.png" alt="mobile wireframe2" title="Mobile Gallery Page Wireframe" width="200" height="400">
+* Large device Wireframe for Gallery Page. Alternatively you can view the wireframe here : [Gallery Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
+and [Gallery Page Mobile](assets/uxd/balsamiqWireframe/GalleryPageMobile.png)
+<h1 align="left">
+    <img src="assets/uxd/balsamiqWireframe/GalleryPageDesktop.png" alt="wireframe2" title="Gallery Page Wireframe" width="500" height="500">
+    <img src="assets/uxd/balsamiqWireframe/GalleryPageMobile.png" alt="mobile wireframe2" title="Mobile Gallery Page Wireframe" width="500" height="700">
 </h1>
 
-* Mobile device Wireframe for Contact Page
-<h1 align="center">
+* Large device Wireframe for Contact Page. Alternatively you can view the wireframe here : [Contact Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
+and [Contact Page Mobile](assets/uxd/balsamiqWireframe/ContactPageMobile.png)
+<h1 align="left">
+    <img src="assets/uxd/balsamiqWireframe/ContactPageDesktop.png" alt="wireframe3" title="Contact Page Wireframe" width="500" height="500">
     <img src="assets/uxd/balsamiqWireframe/ContactPageMobile.png" alt="mobile wireframe3" title="Mobile Contact Page Wireframe" width="200" height="400">
 </h1>
 
 ## Features
 
-This project consists of three different pages.
+This project consists of three pages.
 
 ### Features found on all three:
 - Headers are fixed across all devices and contain the logo with an anchor tag to the home page and the navbar has anchor tags to their corresponding pages. 
 - Headers on mobile devices contain the navbar in the form of a hamburger menu to use the screen space more efficiently.
-- Footers across all devices contain the sites logo with an anchor tag to the home page with all relevant social media icons linked to the relevant sites. Footer also has a link to the contact page.
+- Footers across all devices contain the sites logo with an anchor tag to the home page with all relevant social media icons linked to the relevant sites. The footer also has a link to the contact
+page and contains the address and phone number of the website.
 
 ### Features unique to Home Page:
-- Large image to set the tone for the site
-- Text area with brief introduction
-- Three images/icons to grab attention with short text area of reasons to hike
+- Large hero-image spanning across entire width of the page with a "Subscribe" modal button inside
+- Modal contains a name input box, an email input box and a submit button
+- A text area with a quote on hiking inside
+- An image of the OnlyHikers page owners
+- Text area with brief introduction on the owners and what the page is about
 
 ### Features unique to Gallery Page:
-- Using Bootstrap Framework to create a photo Carousel to showcase photos from various different hikes
+- 6 thumbnail images for 3 different hikes, making a total of 18 images
 
 ### Features unique to Contact Page:
-- Form with four different inputs, namely 'First Name', 'Last Name', 'Email Address' and 'Message'
-- Submit button that users hit once they have input required data
-
+- Large image under the navbar with text inside
+- Contact form with three different inputs, 'Name', 'Email Address' and 'Message' and a submit button underneath
 
  
 ### Features Left to Implement
-- Another feature idea
+- Events page where users can book into hikes as spaces will be limited due to health and safety
+- Expand on gallery and implement bootstraps carousel component for a nice slideshow efficiently
+- Introduce a blog page and enable commenting on blogs and gallery to better connect users and open up the site to discussions
 
 ## Technologies Used
 
@@ -173,21 +160,30 @@ This project consists of three different pages.
 
 ### Frameworks, Libraries & Programs Used
 
-- Bootstrap
-- Font Awesome
-- Balsamiq
-- Google Fonts
-- Color Hunt
-- GitHub
-- Git
-- Free Logo Design
-- Font Pair
-
-For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [Bootstrap](https://getbootstrap.com/) <br>
+Used to help in the design and layout of the website in conjunction with HTML and CSS
+- [Font Awesome](https://fontawesome.com/) <br>
+I used the icons from this site for the social media anchor tags in the footer
+- [Balsamiq](https://balsamiq.com/) <br>
+I used this to create my rough wireframes
+- [Google Fonts](https://fonts.google.com/) <br>
+I used Google Fonts to import my two fonts for this site, Roboto and Nunito
+- [Color Hunt](https://colorhunt.co/)<br>
+I found the palette of colours I would use for my site here
+- [GitHub](https://github.com/) <br>
+This is the hosting site where I first created the repository for this webpage and also where the live site is deployed from 
+- [Git](https://git-scm.com/) <br>
+This is the version control software used where can I commit and push the updated information to the hosting website GitHub
+- [Free Logo Design](https://www.freelogodesign.org/) <br>
+I created my free logo here for my site
+- [Font Pair](https://fontpair.co/) <br>
+I chose my two complementary fonts for my webpage here
+- [Tiny JPG](https://tinyjpg.com/) <br>
+I used this to compress my images
+- [Paint 3D](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) <br>
+I used this progran to crop my site logo while still maintaing the clear background
+- [Rapid Tables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
+I used this to convert my dark green colour to rgb to use for the slightly transparent jumbotron and contact form background
 
 ## Testing
 
