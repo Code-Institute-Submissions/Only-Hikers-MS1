@@ -4,9 +4,9 @@
 html,
 body
  {
-    height: 100%;
     width: 100%;
-    margin: 0, auto;
+    margin: 0 auto;
+    font-size: 12px;
     font-family: "Nunito", sans-serif;
     background: #D9E4DD ;
 }
@@ -30,36 +30,25 @@ hr {
     width: 83%;
 }
 
-@media screen and (min-width:992px){
-    hr{
-        width: 100%;
-    }         
-}
-
 /*--Header/ Navbar--*/
 .navbar {  
-    font-weight: 600;
-    font-size: 1.5em;
+    font-weight: 700;
+    font-size: 2rem;
     letter-spacing: 1px;
     background: #FBF7F0;
     border-bottom: 1px solid #3f3f3c;
 }
 
 .sitelogo {
-     max-width: 7em;
-     max-height: auto;
+    max-width: 10rem;
 }
 
 .navbar-brand .sitelogo {
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 a.nav-link.hvr-grow {
     color: #799e82;
-}
-
-.nav-item {
-    margin-left: auto;   
 }
 
 /*--Footer--*/
@@ -70,18 +59,13 @@ footer {
     padding-top: 1rem;
     margin-top: 0;
     width: 100%;
-    padding-bottom: 0.5rem;
-}
-
-.footer-logo {
-    margin: 0;
-    
+    padding-bottom: 1rem;
 }
 
 /*--Styles anchor tags in Footer--*/
 .footer-contact-us, .footer-contact-us a {
     color: #FBF7F0 ;
-    font-size: 1.2em;
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 0;
     text-decoration: none;
@@ -94,34 +78,31 @@ footer {
     -o-transition: all 0.5s ease-in-out;
 }
 
-.footer-contact-us a:hover, .footer-address a:hover {
-    color: #799e82 ;
-}
-.footer-address {
-    color: #FBF7F0;
-}
-
 .footer-address a{
     text-decoration: none;
     color: #FBF7F0;
 }
 
+.footer-contact-us a:hover, .footer-address a:hover {
+    color: #799e82 ;
+}
+
+.footer-address {
+    color: #FBF7F0;
+}
+
 .social-list-col  {
-    color: #ffffff;
-   padding-top: 1rem;
-   padding-bottom: 0;
-   height: 5rem;
+    margin-top: 2.5rem;
 }
 
 .social-list-col ul li{
     background-color: #555555;
-}
-.social-list li {
     border: none;
 }
 
+/*--Styles social icons--*/
 .social-list li a i {
-    font-size: 1.5rem;
+    font-size: 2rem;
     border: none;
     color: #CDC9C3 ;
     padding-bottom: 1rem;
@@ -135,24 +116,15 @@ footer {
     color: #799e82 ;
 }
 
-.footer-contact-us-link {
-    padding-top: 0;
-    position: relative;
-}
-
 /*--Hero-image with Jumbotron--*/
 .subscription-container {
     height: 70vh;
     width: 100%;
-    padding: 0;
     background: url("../images/index.html-images/hero-image1.jpg") no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
-    padding-bottom: 3rem;  
 }
-
-
 
 .subscription-jumbotron {
     padding-bottom: 1rem;
@@ -163,17 +135,12 @@ footer {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
-     
-a.nav-link.hvr-grow:hover {
-    color: #799e82 ;
-}
-           
+                
 .subscribe-btn {
     background-color: #FBF7F0  ;
     color: #799e82 ;
     border-color: #3f3f3c ;
-    font-weight: 600;
-    display: inline-block;   
+    font-weight: 600;   
     transition: all 0.5s;
 }
 
@@ -183,49 +150,46 @@ a.nav-link.hvr-grow:hover {
 }
 
 /*-- Subscribe Modal--*/
-.modal.content {
+.modal-content {
     align-content: center;
-    color: #CDC9C3 ;
+    color: #555555;
+    background-color: #D9E4DD ;
 }
 
 .modal-headings {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 /*--Quote and About section*/
 .hiking-quote {
-    padding:20px;
     font-size: 2rem;
+    font-weight: 600;
+    color: #FBF7F0 ;
 }
 
 .quote-section {
     background-color: #799e82 ;
-    padding: 30px;
-    color: #555555;
+    padding: 1rem;
 }
 
 .about-image img{
-    vertical-align: middle;
-    padding: 25px;  
-}
-
-@media screen and (min-width: 1200px){
-    .about-image img{
-        max-height: 50vh;
-    }
+    padding: 1rem;  
+    border-radius: 50%;
 }
 
 .about-text p, .about-heading{
-    padding-right: 50px;
-    padding-left: 50px;
+    font-size: 1.5rem;
+    padding-right: 40px;
+    padding-left: 40px;
     color: #555555;
 }
 
 /*--Styles the anchor tags on home page--*/
 .about-text a {
-    color: #555555;
+    color: #383737;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -242,13 +206,6 @@ a.nav-link.hvr-grow:hover {
     padding: 20px 50px 50px 50px;   
 }
 
-@media screen and (min-width:992px){
-    .gallery-container{
-        width: 75%;
-        margin: 0 auto;
-    }
-}
-
 .img-thumbnail {
     background-color: #FBF7F0 ;
 }
@@ -260,25 +217,23 @@ a.nav-link.hvr-grow:hover {
 
 /*--Contact Page--*/
 .contact-form-heading-container {
-    background: url("../images/index.html-images/image1.jpg") no-repeat top center;
-    background-size: auto;
+    background: url("../images/index.html-images/image1.jpg") no-repeat center center;
+    background-size: cover;
     width: 100%;
     height: 50vh;
 }
 
-@media only screen and (max-width: 576px){
-    .contact-form-heading-container {
-        background-size: cover;
-    }
+.contact-form-heading {
+    color: #FBF7F0;
+    
 }
+
 .contact-form {
     border: 1px solid #555555;
     padding: 1rem;
+    color: #555555;
+    font-size: 1.5rem;
     background-color: rgba(121, 158, 130, 0.5) ;
-}
-
-.contact-form-heading {
-    color: #FBF7F0;
 }
 
 .input-contact-form {
@@ -286,26 +241,36 @@ a.nav-link.hvr-grow:hover {
     border: 1px solid #3f3f3c;
 }
 
-/*----------- Media Queries for responsiveness*/
+/*--Media Queries--*/
+@media screen and (min-width:992px){
+    hr{
+        width: 100%;
+    }     
+    h1,
+    h2 {
+        font-size: 3rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+}
 
+@media screen and (min-width: 1200px){
+    .about-image img{
+        max-height: 50vh;
+    }
+}
 
+@media screen and (min-width:992px){
+    .gallery-container{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
 
+@media only screen and (max-width: 576px){
+    .contact-form-heading-container {
+        background-size: cover;
+    }
+}
 
-/* 
-
-Bootstrap breakpoints:
-
-XS devices (portrait smartphone view) < 576px
-
-SM device (landscape smartphone view) 576px and up
-@media (min-width:576px){}
-
-MD device (tablet) 768px and up
-@media (min-width:576px) {}
-
-LG device (desktop) 992px and up
-@media (min-width:992px){}
-
-XL devices (large desktop) 1200px and up
-@media (min width:1200px){}
-*/

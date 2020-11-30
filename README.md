@@ -1,3 +1,5 @@
+<img src="assets/uxd/logo/onlyhikerslogo.png" alt="site logo" title="Only Hikers Logo" width="75" height="75">
+
 ## Table of Contents:
 
 * [Project Overview](#project-overview)
@@ -21,27 +23,27 @@
 
 # Project Title
 
-<img src="assets/uxd/logo/onlyhikerslogo.png" alt="site logo" title="Only Hikers Logo" width="75" height="75">
-
 ##  Only Hikers     
 
 
 ***
 
+A live verson of my site can be found <a href="https://shielh.github.io/Only-Hikers-MS1/">here</a>.
+
 This milestone project is my first ever solo coding project where I aim to showcase the skills learnt thus far.
-This project is a static front-end site built using HTML and CSS in conjunction with the Bootstrap Framework to create a responsive, mobile-first webpage.
+This project is a static front-end site built using HTML and CSS in conjunction with the Bootstrap Framework to create a responsive, mobile-first approach webpage.
 
 Travel and hiking have always been two huge passions of mine so the idea for this project came about throughout lockdown this year when I was restricted 
-from travelling anywhere overseas. I began to explore and discover hikes and trails in Ireland that are some of the most beauitful I have seen. It was 
-definitely an escape from the craziness that has been going on in the world.  
+from travelling anywhere overseas. I began to explore and discover hikes and trails in Ireland that are some of the most beauitful I have ever seen. 
 After all these hikes, I had so many beautiful photos of Ireland and nowhere to showcase them. A picture is worth a thousand words, right?
 
+My goal for this site is to inspire and spread the word about hiking in Ireland and how anyone can do it.
 
+## Responsive site
 
-My goal for this site is . 
-I want to and .
+Using <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, I got the below image showing what the site looks like across all devices.
 
- 
+ ![Website Mockup](assets/uxd/mockup/am-i-responsive-mockup.PNG)
 ## User Experience
 
 #### Project Goals
