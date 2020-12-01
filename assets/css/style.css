@@ -33,22 +33,38 @@ hr {
 /*--Header/ Navbar--*/
 .navbar {  
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
+    text-align: right;
     background: #FBF7F0;
     border-bottom: 1px solid #3f3f3c;
 }
 
 .sitelogo {
     max-width: 10rem;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.sitelogo:hover {
+    transform: scale(1.1);
 }
 
 .navbar-brand .sitelogo {
     margin-left: 1rem;
 }
 
-a.nav-link.hvr-grow {
-    color: #799e82;
+a.nav-link {
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+a.nav-link:hover {
+    transform: scale(1.1);
 }
 
 /*--Footer--*/
@@ -72,7 +88,7 @@ footer {
 }
 
 .footer-contact-us a {
-     transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -114,6 +130,7 @@ footer {
 
 .social-list li a i:hover {
     color: #799e82 ;
+    transform: scale(1.2);
 }
 
 /*--Hero-image with Jumbotron--*/
@@ -124,6 +141,7 @@ footer {
     background-size: cover;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .subscription-jumbotron {
@@ -206,7 +224,7 @@ footer {
     padding: 20px 50px 50px 50px;   
 }
 
-.img-thumbnail {
+img.img-thumbnail {
     background-color: #FBF7F0 ;
 }
 
@@ -252,6 +270,9 @@ footer {
     h4 {
         font-size: 2rem;
     }
+    .navbar {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -270,6 +291,10 @@ footer {
 @media only screen and (max-width: 576px){
     .contact-form-heading-container {
         background-size: cover;
+    }
+    .about-image {
+        height: 300px;
+        max-width: 100%;
     }
 }
 
