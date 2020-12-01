@@ -4,16 +4,24 @@
 
 * [Project Overview](#project-overview)
 * [User Experience](#user-experience)
+    * [Project Goals](#project-goals)
     * [User Stories](#user-stories)
     * [Design](#design)
         * [1. Font](#1-font)
         * [2. Color Scheme](#2-color-scheme)
         * [3. Logo](#3-logo)
         * [4. Wireframing](#5-wireframing)
-* [Technology Used](#technology-used)
 * [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features Left to Implement](#features-left-to-implement)
+* [Technology Used](#technology-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
+    * [Initial Creation](#initial-creation)
+    * [Deployment via GitHub](#deployment-via-github)
+    * [Local Deployment](#local-deployment)
 * [Credits](#credits)
     * [Special Thanks & Acknowledgements](#special-thanks--acknowledgements)
 
@@ -21,7 +29,7 @@
 
 
 
-# Project Title
+# Project Overview
 
 ##  Only Hikers     
 
@@ -121,7 +129,7 @@ and [Contact Page Mobile](assets/uxd/balsamiqWireframe/ContactPageMobile.png)
 </h1>
 
 ## Features
-
+### Existing Features
 This project consists of three pages.
 
 ### Features found on all three:
@@ -157,7 +165,7 @@ page and contains the address and phone number of the website.
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - I used HTML as the main language for structuring the content
 - [CSS3](https://en.wikipedia.org/wiki/CSS) - I used CSS as the primary language for styling the sites content
 
-### Frameworks, Libraries & Programs Used
+### Frameworks Libraries and Programs Used
 
 - [Bootstrap](https://getbootstrap.com/) <br>
 Used to help in the design and layout of the website in conjunction with HTML and CSS
@@ -205,29 +213,57 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
+### Initial Creation
+Only Hikers was first created by completing the following steps on GitHub:
+1. Open [Github](https://github.com/) page up in browser
+2. Log in using your username and password
+3. Click the "New" green button to the left-hand side repository section
+4. Click template dropdown menu and select the "Code Institute Full Template"
+5. Enter name of project "Only-Hikers-MS1"
+6. Click "Create repository"
+7. Click the green "Gitpod" button ONCE to redirect to the Gitpod workspace
+8. Open via [Gitpod Workspaces](https://gitpod.io/workspaces/) only from then on
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Throughout development, three primary commands were used with the CLI [Git](https://git-scm.com/) and were as follows :
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+- "git add" followed by the file name you wish to stage or "git add ." stages all unstaged files
+- "git commit -m" followed by a detailed comprehensive comment pertaining to the changes made since the previous commit
+- "git push" makes all changes visible on the GitHub Repo
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+### Deployment via GitHub
+1. Open [Github](https://github.com/) page up in browser
+2. Log in using your username and password
+3. Select "shielh/Only-Hikers-MS1" from repositories displayed on left-hand side of screen
+4. Click "settings", the last option displayed in the navigation menu
+5. Scroll down until you reach "GitHub Pages" section
+6. Select "Master Branch" in the dropdown under the Source heading
+7. Finally, click to confirm my selection
+8. A live version of Only Hikers is now live on Github [here](https://shielh.github.io/Only-Hikers-MS1/)
 
+### Local Deployment
+1. Open up "shielh/Only-Hikers-MS1 on GitHub as previously described in steps 1-3 above
+2. Click the "Code" button with the download icon beside it (beside the green GitPod button) 
+3. Copy the url visible underneath "https://github.com/shielh/Only-Hikers-MS1.git"
+4. Using your preferred IDE, type the command "git clone" followed by the above url
+5. A clone of your project will be created on your device 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the quote section was taken from  [The Globe Trotter](https://thesologlobetrotter.com/hiking-quotes/)
+- The CSS styling for the hero image and the image on the contact page was taken from [Laura Lee Flores Blog](https://www.lauraleeflores.com/blog/header-image-sizing-guide)
+- The modal component on the home page and the form section were both taken from [Bootstrap's Components](https://getbootstrap.com/docs/4.5/components/modal/)
+- I used [Stack Overflow](https://stackoverflow.com/questions/37814508/order-columns-through-bootstrap4) to learn about how to order columns differently across various devices
+- I got inspiration from [CSS Tricks](https://css-tricks.com/examples/hrs/) on how to style my horizontal rule 
+- I watched this [Youtube Video](https://www.youtube.com/watch?v=V_lAhqLXT9A) to brush up on everything I had learnt about combining HTML, CSS and Bootstrap to create a fully responsive website
 
 ### Media
-- The photos used in this site were obtained from ...
+- I took all the images used across this webpage so I didn't need to obtain permissions from anyone
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-
-
+- A big thank you to my mentor Rohit Sharma for his help and guidance through my first project
+- Thanks to everyone in the Slack community especially my September onboarding channel where my peers were always quick to respond to any questions I had
+- Thanks to my sister for going on all these hikes with me throughout this crazy pandemic year, keeping us sane 
 
 

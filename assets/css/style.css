@@ -135,7 +135,7 @@ footer {
 
 /*--Hero-image with Jumbotron--*/
 .subscription-container {
-    height: 60vh;
+    height: 85vh;
     width: 100%;
     background: url("../images/index.html-images/hero-image-mobile.jpg") no-repeat center top;
     background-size: cover;
@@ -279,14 +279,12 @@ img.img-thumbnail {
 @media screen and (min-width:768px) {
     .subscription-container{
         background: url("../images/index.html-images/hero-image.jpg") no-repeat center bottom;
-        background-size: 100%;
+        background-size: cover;
     }   
     .contact-form-heading-container{
         background: url("../images/contact.html-images/contact-image-mobile.jpg") no-repeat center center;
         background-size: cover;
-        
     }
-    
 }
 
 @media screen and (min-width: 1200px){
@@ -307,7 +305,7 @@ img.img-thumbnail {
         background-size: cover;
     }
     .about-image {
-        height: 300px;
+        height: auto;
         max-width: 100%;
     }
 }
