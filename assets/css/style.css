@@ -231,8 +231,12 @@ img.img-thumbnail {
     color: #555555 ;
 }
 
-/*--Contact Page--*/
+.top-page-link {
+    color: #799e82 ;
+    
+}
 
+/*--Contact Page--*/
 .contact-form-heading-container {
     background: url("../images/contact.html-images/contact-image-mobile.jpg") no-repeat center center;
     background-size: cover;
@@ -241,7 +245,7 @@ img.img-thumbnail {
 }
 
 .contact-jumbotron {
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     background-color: rgba(121, 158, 130, 0.5);
     color: #FBF7F0;
 }
