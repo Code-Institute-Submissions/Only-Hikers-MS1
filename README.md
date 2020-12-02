@@ -157,6 +157,7 @@ page and contains the address and phone number of the website.
 - Events page where users can book into hikes as spaces will be limited due to health and safety
 - Expand on gallery and implement bootstraps carousel component for a nice slideshow efficiently
 - Introduce a blog page and enable commenting on blogs and gallery to better connect users and open up the site to discussions
+- Set up the Back End script so that the subscription modal and contact form are sent for processing
 
 ## Technologies Used
 
@@ -193,6 +194,31 @@ I used this progran to crop my site logo while still maintaing the clear backgro
 I used this to convert my dark green colour to rgb to use for the slightly transparent jumbotron and contact form background
 
 ## Testing
+
+The aim of this testing section is to:
+1. Ensure that my site is fully responsive across all devices ranging from mobile (<576px) to large desktop screens (>1200px) and across different browsers including Chrome, Safari, Mozilla and Opera.  
+2. Perform tests on the HTML and CSS code through their respective validators. 
+3. Test each navigation link on the webpage to make sure it brings you to the correct page
+4. Test each social link to make sure when clicked the appropriate page opens in a new tab
+5. Test the modal subscription component to ensure it opens up the subscription form across the Home page
+6. Ensure the form component on the Contact page is functioning properly requiring both inputs to be in the correct format before submit button will work
+7. Check hovering over the site logo, nav-items in the header, "contact" and "gallery" in About Us section on index.html and site logo, "contact us", 
+telephone number and social icons have the appropriate response
+8. Run DevTools Lighthouse across all pages of the site in both mobile and desktop versions
+
+*** 
+
+1. Responsive across all devices
+- I checked the site across [Google Chrome](https://www.google.com/intl/en_ie/chrome/), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/), [Safari](https://www.apple.com/safari/) 
+and [Opera](https://www.opera.com/) and all were completely responsive with all pages viewing with layout remaining intact.
+- Using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), I ran my site in mobile/tablet display across the following devices: Galaxy Note 3, Galaxy S III, Moto G4,
+iPhone 4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro. Everything ran normally on these devices.
+
+***
+
+2. Perform HTML and CSS Validator Tests
+- 
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
