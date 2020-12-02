@@ -1,4 +1,4 @@
-<img src="assets/uxd/logo/onlyhikerslogo.png" alt="site logo" title="Only Hikers Logo" width="75" height="75">
+<img src="assets/uxd/logo/onlyhikerslogo.png" alt="site logo" title="Only Hikers Logo" width="200" height="112">
 
 ## Table of Contents:
 
@@ -18,6 +18,13 @@
     * [Languages Used](#languages-used)
     * [Frameworks Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 * [Testing](#testing)
+    1. [Responsive across devices](#responsive-across-devices)
+    2. [HTML and CSS Validator Tests](#html-and-css-validator-tests)]
+    3. [Navigation links](#navigation-links)
+    4. [Modal Component](#modal-component)
+    5. [Contact Form](#contact-form)
+    6. [Hover Transitions](#hover-transitions)
+    7. [Lighthouse Tool](#lighthouse-tool)
 * [Deployment](#deployment)
     * [Initial Creation](#initial-creation)
     * [Deployment via GitHub](#deployment-via-github)
@@ -80,10 +87,10 @@ I used <a href="https://fontpair.co/">Font Pair</a> to choose the two main fonts
 I used <a href="https://colorhunt.co/palette/">Color Hunt</a> to pick the colors for my website. I wanted to pick earthy tones to tie in with the concept of nature and hiking. 
 The colors are as follows from top to bottom:
 
- - #D9E4DD
- - #FBF7F0  
- - #CDC9C3
- - #555555
+ * #D9E4DD
+ * #FBF7F0  
+ * #CDC9C3
+ * #555555
 
 <h1 align="left">
     <img src="assets/uxd/colorScheme/colorHuntPalette.png" alt="color palette" title="Color Palette" width="600" height="400">
@@ -100,7 +107,7 @@ multitude of logos to choose from. I chose the logo that I found most visually p
 background so it could fit into any header color of my choosing.
 
 <h1 align="left">
-    <img src="assets/uxd/logo/onlyhikerslogo.png" alt="site logo" title="Only Hikers Logo" width="150" height="150">
+    <img src="assets/uxd/logo/onlyhikerslogo.png" alt="site logo" title="Only Hikers Logo" width="200" height="112">
 </h1>
 
 
@@ -110,22 +117,22 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes f
 * Large device Wireframe for Home Page. Alternatively you can view the wireframe here : [Landing Page Desktop](assets/uxd/balsamiqWireframe/LandingPageDesktop.png)
  and [Landing Page Mobile](assets/uxd/balsamiqWireframe/LandingPageMobile.png)
 <h1 align="left">
-    <img src="assets/uxd/balsamiqWireframe/LandingPageDesktop.png" alt="wireframe1" title="Landing Page Wireframe" width="500" height="500">
-    <img src="assets/uxd/balsamiqWireframe/LandingPageMobile.png" alt="mobilew wireframe1" title="Mobile Landing Page Wireframe" width="200" height="400">
+    <img src="assets/uxd/balsamiqWireframe/LandingPageDesktop.png" alt="wireframe1" title="Landing Page Wireframe" width="600" height="1050">
+    <img src="assets/uxd/balsamiqWireframe/LandingPageMobile.png" alt="mobilew wireframe1" title="Mobile Landing Page Wireframe" width="350" height="900">
 </h1>
 
 * Large device Wireframe for Gallery Page. Alternatively you can view the wireframe here : [Gallery Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
 and [Gallery Page Mobile](assets/uxd/balsamiqWireframe/GalleryPageMobile.png)
 <h1 align="left">
-    <img src="assets/uxd/balsamiqWireframe/GalleryPageDesktop.png" alt="wireframe2" title="Gallery Page Wireframe" width="500" height="500">
-    <img src="assets/uxd/balsamiqWireframe/GalleryPageMobile.png" alt="mobile wireframe2" title="Mobile Gallery Page Wireframe" width="500" height="700">
+    <img src="assets/uxd/balsamiqWireframe/GalleryPageDesktop.png" alt="wireframe2" title="Gallery Page Wireframe" width="600" height="1250">
+    <img src="assets/uxd/balsamiqWireframe/GalleryPageMobile.png" alt="mobile wireframe2" title="Mobile Gallery Page Wireframe" width="1000" height="1300">
 </h1>
 
 * Large device Wireframe for Contact Page. Alternatively you can view the wireframe here : [Contact Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
 and [Contact Page Mobile](assets/uxd/balsamiqWireframe/ContactPageMobile.png)
 <h1 align="left">
-    <img src="assets/uxd/balsamiqWireframe/ContactPageDesktop.png" alt="wireframe3" title="Contact Page Wireframe" width="500" height="500">
-    <img src="assets/uxd/balsamiqWireframe/ContactPageMobile.png" alt="mobile wireframe3" title="Mobile Contact Page Wireframe" width="200" height="400">
+    <img src="assets/uxd/balsamiqWireframe/ContactPageDesktop.png" alt="wireframe3" title="Contact Page Wireframe" width="500" height="1000">
+    <img src="assets/uxd/balsamiqWireframe/ContactPageMobile.png" alt="mobile wireframe3" title="Mobile Contact Page Wireframe" width="367" height="855">
 </h1>
 
 ## Features
@@ -133,10 +140,25 @@ and [Contact Page Mobile](assets/uxd/balsamiqWireframe/ContactPageMobile.png)
 This project consists of three pages.
 
 ### Features found on all three:
-- Headers are fixed across all devices and contain the logo with an anchor tag to the home page and the navbar has anchor tags to their corresponding pages. 
-- Headers on mobile devices contain the navbar in the form of a hamburger menu to use the screen space more efficiently.
-- Footers across all devices contain the sites logo with an anchor tag to the home page with all relevant social media icons linked to the relevant sites. The footer also has a link to the contact
-page and contains the address and phone number of the website.
+* Headers are fixed across all devices and contain the logo with an anchor tag to the home page and the navbar has anchor tags to their corresponding pages. 
+* Headers on mobile devices contain the navbar in the form of a hamburger menu to use the screen space more efficiently.
+
+See below the difference between desktop and mobile view:
+<br>
+<img src="assets/images/testing/header-desktop.PNG" alt="header desktop" title="header desktop" width="667" height="78">
+<br>
+<img src="assets/images/testing/header-mobile.PNG" alt="header mobile" title="header mobile" width="363" height="88">
+<br>
+<img src="assets/images/testing/header-mobile-alt.PNG" alt="head mobile dropdown" title="header mobile dropdown" width="363" height="206">
+* Footers across all devices contain the sites logo with an anchor tag to the home page and a link to the contact page .
+On desktop view, social media icons are located on the right side of the footer and are linked to the relevant social media sites opening a new tab when clicked. 
+The footer also contains the address and phone number of the website located on the left of the footer.
+
+See below the difference between desktop and mobile view:
+<br>
+<img src="assets/images/testing/footer-desktop.PNG" alt="footer desktop view" title="footer desktop" width="945" height="123">
+<br>
+<img src="assets/images/testing/footer-mobile.PNG" alt="footer mobile view" title="footer mobile" width="363" height="320">
 
 ### Features unique to Home Page:
 - Large hero-image spanning across entire width of the page with a "Subscribe" modal button inside
@@ -147,6 +169,8 @@ page and contains the address and phone number of the website.
 
 ### Features unique to Gallery Page:
 - 6 thumbnail images for 3 different hikes, making a total of 18 images
+- On mobile devices, all 18 images appear vertically with one per row to make the image a better size for the viewer
+- On mobile devices, there is a link "click to top of page" to bring the user to the top of the page rather than scrolling the whole way up
 
 ### Features unique to Contact Page:
 - Large image under the navbar with text inside
@@ -198,26 +222,166 @@ I used this to convert my dark green colour to rgb to use for the slightly trans
 The aim of this testing section is to:
 1. Ensure that my site is fully responsive across all devices ranging from mobile (<576px) to large desktop screens (>1200px) and across different browsers including Chrome, Safari, Mozilla and Opera.  
 2. Perform tests on the HTML and CSS code through their respective validators. 
-3. Test each navigation link on the webpage to make sure it brings you to the correct page
-4. Test each social link to make sure when clicked the appropriate page opens in a new tab
-5. Test the modal subscription component to ensure it opens up the subscription form across the Home page
-6. Ensure the form component on the Contact page is functioning properly requiring both inputs to be in the correct format before submit button will work
-7. Check hovering over the site logo, nav-items in the header, "contact" and "gallery" in About Us section on index.html and site logo, "contact us", 
+3. Test each navigation link on the webpage to make sure it brings you to the correct page including social links
+4. Test the modal subscription component to ensure it opens up the subscription form across all devices on index.html page
+5. Ensure the form component on the Contact page is functioning properly requiring both inputs to be in the correct format before submit button will work
+6. Check hovering over the site logo, nav-items in the header, "contact" and "gallery" in About Us section on index.html and site logo, "contact us", 
 telephone number and social icons have the appropriate response
-8. Run DevTools Lighthouse across all pages of the site in both mobile and desktop versions
+7. Run DevTools Lighthouse across all pages of the site in both mobile and desktop versions
 
 *** 
 
-1. Responsive across all devices
+1. 
+### Responsive across devices
 - I checked the site across [Google Chrome](https://www.google.com/intl/en_ie/chrome/), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/), [Safari](https://www.apple.com/safari/) 
 and [Opera](https://www.opera.com/) and all were completely responsive with all pages viewing with layout remaining intact.
-- Using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), I ran my site in mobile/tablet display across the following devices: Galaxy Note 3, Galaxy S III, Moto G4,
-iPhone 4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro. Everything ran normally on these devices.
+- Using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), (to open I right-clicked anywhere on my website and clicked "Inspect"), I ran my site in mobile/tablet display 
+across the following devices: Galaxy Note 3, Galaxy S III, Moto G4, iPhone 4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro. Everything 
+ran normally on these devices.
 
 ***
 
-2. Perform HTML and CSS Validator Tests
-- 
+2.  
+### HTML and CSS Validator Tests
+* W3C HTML Validator
+    - I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by Direct Input" option and pasted index.html, gallery.html and contact.html all in separately.
+    - I removed the h5 elements as a child element of the label. I removed p-0 from the inline style for h4. I removed the space between the "tel:" and the "555" and finally I matched the aria-describedly 
+with its appropriate ID element. 
+    - I ran the code through [W3C HTML Validator](https://validator.w3.org/) again and got the following message "Document checking completed. No errors or warnings to show."
+    
+    All pages initally came up with the following errors:
+
+
+<img src="assets/images/testing/html-validator-error.PNG" alt="html errors" title="HTML Errors" width="1549" height="445">
+
+
+
+* Similarly, I ran the code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
+    - I selected the "by Direct Input" option 
+    - I received the message "Congratulations! No Error Found." 
+
+***
+
+3. 
+### Navigation links
+
+#### Navigation links on all three pages
+* Site logo 
+    - Can be found at top left of navbar and in the center of the footer on each of the three pages
+    - When clicked on any of the pages at either position (header and footer), it redirects to index.html page or stays on index.html if that is the page you clicked it on but it refreshes the page
+* Home Nav Item
+    - Visible on navbar across all three pages
+    - Visible on mobile devices once you click the hambruger icon dropdown menu
+    - Click it and it redirects you to index.html (except from index.html which will refresh page)
+* Gallery Nav Item
+    - Visible on navbar across all three pages
+    - Visible on mobile devices once you click the hambruger icon dropdown menu
+    - Click it and it redirects you to gallery.html (except from gallery.html which will refresh page)
+* Contact Nav Item
+    - Visible on navbar across all three pages
+    - Visible on mobile devices once you click the hambruger icon dropdown menu
+    - Click it and it redirects you to contact.html (except from contact.html which will refresh page)
+* Phone Number anchor tag
+    - Visible in the footer across mobile and desktop 
+    - Click the phone number and it will promt you to pick and application to make the call on 
+* Contact Us
+    - Visible in the footer across mobile and desktop
+    - Click it and it redirects you to contact.html (except from contact.html which will refresh page)
+* Social Media links
+    - Visible in the footer across mobile and desktop
+    - Click each icon on each of the three pages
+    - Social sites open in a new tab
+    - Each social icon brings you to the correct social media site
+
+#### Navigation links on index.html
+* "contact us" in "ABOUT US" section
+    - Go to index.html page
+    - Scroll to "ABOUT US" section
+    - Click the "contact us" text with a heavier font-weight than the surrounding text
+    - It will redirect you to the contact.html page
+* "gallery" in "ABOUT US" section
+    - Go to index.html page
+    - Scroll to "ABOUT US" section
+    - Click the "gallery" text with a heavier font-weight than the surrounding text
+    - It will redirect you to the gallery.html page
+
+#### Navigation links on gallery.html
+* "Click to top of page" link at the bottom of gallery.html page on mobile device
+    - Go to gallery.html page
+    - Scroll down the page to the bottom of the images
+    - Click the link "Click to top of page"
+    - You are brought to the top of the gallery.html page
+
+***
+
+4. 
+### Modal Component
+* Check modal component on desktop
+    - Go to to index.html page
+    - Click the "SUBSCRIBE!" button
+    - Attempt to submit the empty form to confirm that an error message appears for the empty input box
+    - Attempt to submit the form with an email missing the "@" symbol
+    - Attempt to sumbit the form with all inputs correctly filled in to confirm page reloads once submitted
+* Check modal component on mobile
+    - Repeat the above steps on a mobile device
+
+***
+5. 
+### Contact Form 
+* Contact form on contact.html
+    - Go to the contact.html page
+    - Attempt to submit the empty form to confirm that an error message appears for the empty input box
+    - Attempt to submit the form with an email missing the "@" symbol to confirm appropriate error message appears
+    - Attempt to sumbit the form with all inputs correctly filled in
+    - Attempt to sumbit the form with all inputs correctly filled in to confirm page reloads once submitted
+
+***
+
+6. 
+### Hover Transitions
+* Test hover elements found across all three pages
+    - Open the index.html, gallery.html and contact.html pages and test the following on each page:
+        - In the header and footer, hover over the site logo to observe the logo enlarge
+        - In the header, hover over the navbar items "Home", "Gallery" and "Contact" to observe each individually get bigger
+        - In the footer, hover over the "Contact us" anchor tag and observe the colour change from #FBF7F0 to #799e82
+        - In the footer, hover over the social media icons and observe both the icons grow and the colour change from #FBF7F0 to #799e82
+        - In the footer, hover over the telepohone number and observe the colour change from #FBF7F0 to #799e82
+* Test hover elements found on index.html and contact.html
+    - Open the index.html and contact.html pages and test the following on each page:
+        - Hover over the respective "SUBSCRIBE" and "SUBMIT button on each page and observe the button reverse font colour to background colour
+* Test hover elements found on index.html
+    - Open index.html
+        - Hover over the "contact us" and "gallery" text in the "ABOUT US" section and observe the font colour change from #383737 to #799e82
+
+***
+
+7. 
+### Lighthouse Tool
+<br>
+In Lighthouse, scores from 90-100(green) are considered good, scores from 50-89(orange) needs improvement and below 50(red) are considered poor. 
+
+* On desktops:
+    - Open each page, right-click and click "Inspect"
+    - Click "Lighthouse" on the top right of the DevTools navbar
+    - Ensure "Desktop" is ticked and click "Generate Report"
+        - index.html: Scored 97 in "Performance", 94 in "Accessibility" and 100 in "Best Practises"
+        - gallery.html: Scored 98 in "Performance", 97 in "Accessibility" and 100 in "Best Practises"
+        - contact.html: Scored 99 in "Performance", 96 in "Accessibility" and 100 in "Best Practises"
+* On mobile devices:
+    - Open each page, right-click and click "Inspect"
+    - Click "Lighthouse" on the top right of the DevTools navbar
+    - Ensure "Mobile" is ticked and click "Generate Report"
+        - index.html: Scored 83 in "Performance", 95 in "Accessibility" and 93 in "Best Practises"
+        - gallery.html: Scored 95 in "Performance", 95 in "Accessibility" and 93 in "Best Practises"
+        - contact.html: Scored 91 in "Performance", 96 in "Accessibility" and 93 in "Best Practises"
+
+### Issues and Solutions
+* My index.html Lighthouse score for performace was 83 which falls in the "needs improvement" category. I tried compressing the hero image further to 
+help reduce the "Lowest Contentful Paint" time but it didn't make much of a difference. I tried resizing the image to have a mobile version and then 
+used a media query to have a larger version of the image for desktop view. Again, this didn't make much of a difference however it did move the score up 
+from 72 to 83. I made the decision to not waste any more time on this issue and to leave as is and to make note for future reference.
+* Throughout the development, I came across a bug where lots of Pinterest icons were hidden in the background of the footer making the height of the 
+footer much larger than it needed to be. I discover there was an unclosed "a tag" which was causing this issue.
 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -226,17 +390,12 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here
 
 ## Deployment
 ### Initial Creation
@@ -288,7 +447,7 @@ Throughout development, three primary commands were used with the CLI [Git](http
 
 ### Acknowledgements
 
-- A big thank you to my mentor Rohit Sharma for his help and guidance through my first project
+- A big thank you to my mentor Rohit Sharma for his help and guidance throughout my first project
 - Thanks to everyone in the Slack community especially my September onboarding channel where my peers were always quick to respond to any questions I had
 - Thanks to my sister for going on all these hikes with me throughout this crazy pandemic year, keeping us sane 
 
