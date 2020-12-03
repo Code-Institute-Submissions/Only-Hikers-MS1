@@ -18,15 +18,16 @@
     * [Languages Used](#languages-used)
     * [Frameworks Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 * [Testing](#testing)
-    1. [Responsivity across devices](#responsivity-across-devices)
-    2. [HTML and CSS Validator Tests](#html-and-css-validator-tests)]
-    3. [Navigation links](#navigation-links)
-    4. [Modal Component](#modal-component)
-    5. [Contact Form](#contact-form)
-    6. [Hover Transitions](#hover-transitions)
-    7. [Lighthouse Tool](#lighthouse-tool)
-    8. [User Stories](#user-stories)
-    9. [Spell Check](#spell-check)
+    - [Responsivity across devices](#responsivity-across-devices)
+    - [HTML and CSS Validator Tests](#html-and-css-validator-tests)]
+    - [Test Cases](#navigation-links)
+        - [Header]()
+        - [Footer]()
+        - [Home Page]()
+        - [Gallery Page]()
+        - [Contact Page]()
+    - [Lighthouse Tool](#lighthouse-tool)
+    - [Spell Check](#spell-check)
  * [Issues and Solutions](#issues-and-solutions)   
 * [Deployment](#deployment)
     * [Initial Creation](#initial-creation)
@@ -229,7 +230,6 @@ telephone number and social icons have the appropriate response
 
 *** 
 
-1. 
 ### Responsivity across devices
 - I checked the site across [Google Chrome](https://www.google.com/intl/en_ie/chrome/), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/), [Safari](https://www.apple.com/safari/) 
 and [Opera](https://www.opera.com/) and all were completely responsive with all pages viewing with layout remaining intact.
@@ -238,8 +238,7 @@ across the following devices: Galaxy Note 3, Galaxy S III, Moto G4, iPhone 4, Ga
 ran normally on these devices.
 
 ***
-
-2.  
+ 
 ### HTML and CSS Validator Tests
 * W3C HTML Validator
     - I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by Direct Input" option and pasted index.html, gallery.html and contact.html all in separately.
@@ -257,7 +256,6 @@ with its appropriate ID element.
 
 ***
 
-3. 
 ### Navigation links
 
 #### Navigation links on all three pages
@@ -308,8 +306,7 @@ with its appropriate ID element.
     - You are brought to the top of the gallery.html page
 
 ***
-
-4. 
+ 
 ### Modal Component
 * Check modal component on desktop
     - Go to to index.html page
@@ -321,18 +318,16 @@ with its appropriate ID element.
     - Repeat the above steps on a mobile device
 
 ***
-5. 
+
 ### Contact Form 
 * Contact form on contact.html
     - Go to the contact.html page
     - Attempt to submit the empty form to confirm that an error message appears for the empty input box
     - Attempt to submit the form with an email missing the "@" symbol to confirm appropriate error message appears
-    - Attempt to sumbit the form with all inputs correctly filled in
     - Attempt to sumbit the form with all inputs correctly filled in to confirm page reloads once submitted
 
 ***
 
-6. 
 ### Hover Transitions
 * Test hover elements found across all three pages
     - Open the index.html, gallery.html and contact.html pages and test the following on each page:
@@ -350,7 +345,6 @@ with its appropriate ID element.
 
 ***
 
-7. 
 ### Lighthouse Tool
 <br>
 In Lighthouse, scores from 90-100(green) are considered good, scores from 50-89(orange) needs improvement and below 50(red) are considered poor. 
@@ -372,20 +366,6 @@ In Lighthouse, scores from 90-100(green) are considered good, scores from 50-89(
 
 ***
 
-8. 
-### User Stories
-* As a user, I want a website that is easy to navigate so I can access all of the information without any challenges
-    - Testing was carried out to ensure the navigation links all bring you to the correct page
-* As a user who is new to hiking, I want to be able to find a contact form quickly in order to get in touch with all my questions
-    - Testing was carried out to ensure both the subscribe modal and contact form was working correctly
-* As a user who enjoys the great outdoors, I want lots of visually pleasing images that capture the beauty of Ireland
-    - Testing was carried out to ensure the images across the site, in particular the gallery page looked well across all screen sizes and were high quality
-* As a user living in Ireland, I want ideas for my next hiking getaway 
-    - Testing was carried out to ensure the headings with the locations of the hikes on the gallery page were large enough for the user to notice
-* As a user who tends to use their mobile more than desktop, I want a webpage that is fully responsive across all devices 
-    - Testing was carried out via DevTools and Lighthouse to ensure the performance of the website was responsive across mobiles, tablets and desktops
-
-9. 
 ### Spell Check
 * I used [Reverso](https://www.reverso.net/spell-checker/english-spelling-grammar/) to perform a spell check on my README.md
 
