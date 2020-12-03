@@ -1,6 +1,6 @@
-<img src="assets/uxd/logo/onlyhikerslogo.png" alt="site logo" title="Only Hikers Logo" width="200" height="112">
+![Site Logo](assets/uxd/logo/onlyhikerslogo.png)
 
-## Table of Contents:
+## Table of Contents :
 
 * [Project Overview](#project-overview)
 * [User Experience](#user-experience)
@@ -25,21 +25,23 @@
     5. [Contact Form](#contact-form)
     6. [Hover Transitions](#hover-transitions)
     7. [Lighthouse Tool](#lighthouse-tool)
+    8. [User Stories](#user-stories)
+ * [Issues and Solutions](#issues-and-solutions)   
 * [Deployment](#deployment)
     * [Initial Creation](#initial-creation)
     * [Deployment via GitHub](#deployment-via-github)
     * [Local Deployment](#local-deployment)
 * [Credits](#credits)
-    * [Special Thanks & Acknowledgements](#special-thanks--acknowledgements)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
+    
 
 ***
-
-
 
 # Project Overview
 
 ##  Only Hikers     
-
 
 ***
 
@@ -85,19 +87,14 @@ I used <a href="https://fontpair.co/">Font Pair</a> to choose the two main fonts
 
 ### 2. Color Scheme
 I used <a href="https://colorhunt.co/palette/">Color Hunt</a> to pick the colors for my website. I wanted to pick earthy tones to tie in with the concept of nature and hiking. 
-The colors are as follows from top to bottom:
+The colors are as follows from top to bottom (as well as using #3f3f3c in some places where it provided more of a contrast than #555555):
 
  * #D9E4DD
  * #FBF7F0  
  * #CDC9C3
  * #555555
 
-<h1 align="left">
-    <img src="assets/uxd/colorScheme/colorHuntPalette.png" alt="color palette" title="Color Palette" width="600" height="400">
-</h1>
-
-
-- I used #3f3f3c across the borders of the site as it gave more of a contrast than #555555 and it matched perfectly with the darkest colour of the logo.
+![Color Palette](assets/uxd/colorScheme/colorHuntPalette.png)
 
 ### 3. Logo
 
@@ -106,9 +103,8 @@ I entered the name of the site, "Only Hikers", and then selected the "Environmen
 multitude of logos to choose from. I chose the logo that I found most visually pleasing and also one with a transparent 
 background so it could fit into any header color of my choosing.
 
-<h1 align="left">
-    <img src="assets/uxd/logo/onlyhikerslogo.png" alt="site logo" title="Only Hikers Logo" width="200" height="112">
-</h1>
+
+![Site Logo](assets/uxd/logo/onlyhikerslogo.png)
 
 
 ### 4. Wireframing
@@ -116,24 +112,23 @@ background so it could fit into any header color of my choosing.
 I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes for my project in order to plan out the layout of the webpage on both desktop and mobile devices.
 * Large device Wireframe for Home Page. Alternatively you can view the wireframe here : [Landing Page Desktop](assets/uxd/balsamiqWireframe/LandingPageDesktop.png)
  and [Landing Page Mobile](assets/uxd/balsamiqWireframe/LandingPageMobile.png)
-<h1 align="left">
-    <img src="assets/uxd/balsamiqWireframe/LandingPageDesktop.png" alt="wireframe1" title="Landing Page Wireframe" width="600" height="1050">
-    <img src="assets/uxd/balsamiqWireframe/LandingPageMobile.png" alt="mobilew wireframe1" title="Mobile Landing Page Wireframe" width="350" height="900">
-</h1>
+
+![Home Page Wireframe](assets/uxd/balsamiqWireframe/HomePageDesktop.png)
+![Mobile Home Page Wireframe](assets/uxd/balsamiqWireframe/HomePageMobile.png)
+
 
 * Large device Wireframe for Gallery Page. Alternatively you can view the wireframe here : [Gallery Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
 and [Gallery Page Mobile](assets/uxd/balsamiqWireframe/GalleryPageMobile.png)
-<h1 align="left">
-    <img src="assets/uxd/balsamiqWireframe/GalleryPageDesktop.png" alt="wireframe2" title="Gallery Page Wireframe" width="600" height="1250">
-    <img src="assets/uxd/balsamiqWireframe/GalleryPageMobile.png" alt="mobile wireframe2" title="Mobile Gallery Page Wireframe" width="1000" height="1300">
-</h1>
+
+![Gallery Page Wireframe](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png)
+![Mobile Gallery Page Wireframe](assets/uxd/balsamiqWireframe/GalleryPageMobile.png)
+
 
 * Large device Wireframe for Contact Page. Alternatively you can view the wireframe here : [Contact Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
 and [Contact Page Mobile](assets/uxd/balsamiqWireframe/ContactPageMobile.png)
-<h1 align="left">
-    <img src="assets/uxd/balsamiqWireframe/ContactPageDesktop.png" alt="wireframe3" title="Contact Page Wireframe" width="500" height="1000">
-    <img src="assets/uxd/balsamiqWireframe/ContactPageMobile.png" alt="mobile wireframe3" title="Mobile Contact Page Wireframe" width="367" height="855">
-</h1>
+
+![Contact Page Wireframe](assets/uxd/balsamiqWireframe/ContactPageDesktop.png)
+![Mobile Contact Page Wireframe](assets/uxd/balsamiqWireframe/ContactPageMobile.png)
 
 ## Features
 ### Existing Features
@@ -145,20 +140,22 @@ This project consists of three pages.
 
 See below the difference between desktop and mobile view:
 <br>
-<img src="assets/images/testing/header-desktop.PNG" alt="header desktop" title="header desktop" width="667" height="78">
+![Header on Desktop](assets/images/testing/header-desktop.PNG)
 <br>
-<img src="assets/images/testing/header-mobile.PNG" alt="header mobile" title="header mobile" width="363" height="88">
+![Header on Mobile](assets/images/testing/header-mobile.PNG)
 <br>
-<img src="assets/images/testing/header-mobile-alt.PNG" alt="head mobile dropdown" title="header mobile dropdown" width="363" height="206">
+![Header on Mobile Dropdown](assets/images/testing/header-mobile-alt.PNG)
+
 * Footers across all devices contain the sites logo with an anchor tag to the home page and a link to the contact page .
 On desktop view, social media icons are located on the right side of the footer and are linked to the relevant social media sites opening a new tab when clicked. 
 The footer also contains the address and phone number of the website located on the left of the footer.
 
 See below the difference between desktop and mobile view:
 <br>
-<img src="assets/images/testing/footer-desktop.PNG" alt="footer desktop view" title="footer desktop" width="945" height="123">
+![Footer on Desktop](assets/images/testing/footer-desktop.PNG)
 <br>
-<img src="assets/images/testing/footer-mobile.PNG" alt="footer mobile view" title="footer mobile" width="363" height="320">
+![Footer on Mobile](assets/images/testing/footer-mobile.PNG)
+
 
 ### Features unique to Home Page:
 - Large hero-image spanning across entire width of the page with a "Subscribe" modal button inside
@@ -251,10 +248,7 @@ with its appropriate ID element.
     
     All pages initally came up with the following errors:
 
-
-<img src="assets/images/testing/html-validator-error.PNG" alt="html errors" title="HTML Errors" width="1549" height="445">
-
-
+![HTML Errors](assets/images/testing/html-validator-error.PNG)
 
 * Similarly, I ran the code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
     - I selected the "by Direct Input" option 
@@ -375,27 +369,31 @@ In Lighthouse, scores from 90-100(green) are considered good, scores from 50-89(
         - gallery.html: Scored 95 in "Performance", 95 in "Accessibility" and 93 in "Best Practises"
         - contact.html: Scored 91 in "Performance", 96 in "Accessibility" and 93 in "Best Practises"
 
-### Issues and Solutions
+***
+
+8. 
+### User Stories
+* As a user, I want a website that is easy to navigate so I can access all of the information without any challenges
+    - Testing was carried out to ensure the navigation links all bring you to the correct page
+* As a user who is new to hiking, I want to be able to find a contact form quickly in order to get in touch with all my questions
+    - Testing was carried out to ensure both the subscribe modal and contact form was working correctly
+* As a user who enjoys the great outdoors, I want lots of visually pleasing images that capture the beauty of Ireland
+    - Testing was carried out to ensure the images across the site, in particular the gallery page looked well across all screen sizes and were high quality
+* As a user living in Ireland, I want ideas for my next hiking getaway 
+    - Testing was carried out to ensure the headings with the locations of the hikes on the gallery page were large enough for the user to notice
+* As a user who tends to use their mobile more than desktop, I want a webpage that is fully responsive across all devices 
+    - Testing was carried out via DevTools and Lighthouse to ensure the performance of the website was responsive across mobiles, tablets and desktops
+
+## Issues and Solutions
 * My index.html Lighthouse score for performace was 83 which falls in the "needs improvement" category. I tried compressing the hero image further to 
 help reduce the "Lowest Contentful Paint" time but it didn't make much of a difference. I tried resizing the image to have a mobile version and then 
 used a media query to have a larger version of the image for desktop view. Again, this didn't make much of a difference however it did move the score up 
 from 72 to 83. I made the decision to not waste any more time on this issue and to leave as is and to make note for future reference.
 * Throughout the development, I came across a bug where lots of Pinterest icons were hidden in the background of the footer making the height of the 
 footer much larger than it needed to be. I discover there was an unclosed "a tag" which was causing this issue.
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-
-
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here
+* Another issue I faced was deviating from my original wireframes. You can see the original wireframes [here](assets/uxd/balsamiqWireframe/oldWireframes). I ended up adding a hero image 
+and rejigging the layout of the site. I think because it was my first webpage I needed to play around with the layout a little before deciding on a concrete look for the website. I can 
+see going forward though the benefits of having a set wireframe before starting any coding to save time.
 
 ## Deployment
 ### Initial Creation
