@@ -42,7 +42,6 @@ hr {
 
 .sitelogo {
     max-width: 10rem;
-    padding-bottom: 1rem;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -78,6 +77,10 @@ footer {
     margin-top: 0;
     width: 100%;
     padding-bottom: 1rem;
+}
+
+.footer-sitelogo{
+    padding: 1rem 0;
 }
 
 /*--Styles anchor tags in Footer--*/
@@ -234,7 +237,6 @@ img.img-thumbnail {
 
 .arrow-link-to-top{
     color: #799e82 ;
-
     font-size: 4rem;
 }
 

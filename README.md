@@ -21,13 +21,12 @@
     - [Responsivity across devices](#responsivity-across-devices)
     - [HTML and CSS Validator Tests](#html-and-css-validator-tests)]
     - [Test Cases](#navigation-links)
-        - [Header]()
-        - [Footer]()
-        - [Home Page]()
-        - [Gallery Page]()
-        - [Contact Page]()
+        - [Header](#header)
+        - [Footer](#footer)
+        - [Home Page](#home-page)
+        - [Gallery Page](#gallery-page)
+        - [Contact Page](#contact-page)
     - [Lighthouse Tool](#lighthouse-tool)
-    - [Spell Check](#spell-check)
  * [Issues and Solutions](#issues-and-solutions)   
 * [Deployment](#deployment)
     * [Initial Creation](#initial-creation)
@@ -256,92 +255,81 @@ with its appropriate ID element.
 
 ***
 
-### Navigation links
+### Test Cases
 
-#### Navigation links on all three pages
+#### Header
+* Navbar
+    - Located at the top of the screen on all devices
+    - Sticky navigation bar across all devices
+    - Menu items are "Home", "Gallery" and "Contact"
+    - Each menu item links to the respective page when clicked
+    - In the mobile view, the menu items collapse into a hamburger icon
+
 * Site logo 
-    - Can be found at top left of navbar and in the center of the footer on each of the three pages
-    - When clicked on any of the pages at either position (header and footer), it redirects to index.html page or stays on index.html if that is the page you clicked it on but it refreshes the page
-* Home Nav Item
-    - Visible on navbar across all three pages
-    - Visible on mobile devices once you click the hambruger icon dropdown menu
-    - Click it and it redirects you to index.html (except from index.html which will refresh page)
-* Gallery Nav Item
-    - Visible on navbar across all three pages
-    - Visible on mobile devices once you click the hambruger icon dropdown menu
-    - Click it and it redirects you to gallery.html (except from gallery.html which will refresh page)
-* Contact Nav Item
-    - Visible on navbar across all three pages
-    - Visible on mobile devices once you click the hambruger icon dropdown menu
-    - Click it and it redirects you to contact.html (except from contact.html which will refresh page)
-* Phone Number anchor tag
+    - Found both at the top left of the navbar and in the center of the footer at the bottom of each of the three pages
+    - Click on the logo on and it redirects to index.html page or refreshes the page if currently on index.html
+    - Hover over the logo and note the change in size. The logo gets bigger when you hover over it 
+
+#### Footer
+- Located on the bottom of the screen
+- Broken into three sections across the desktop layout with the address and phone number on the left, the "Contact us" link and site logo in the middle and the social links on the right
+- All sections stacked in one column in mobile layout
+- "Contact Us" link 
+    - Visible in the footer across mobile and desktop
+    - Click it and it redirects you to contact.html (except when clicked from contact.html in which case it will refresh the page)
+- Site logo (as per above)
+- Phone number link
     - Visible in the footer across mobile and desktop 
     - Click the phone number and it will promt you to pick and application to make the call on 
-* Contact Us
-    - Visible in the footer across mobile and desktop
-    - Click it and it redirects you to contact.html (except from contact.html which will refresh page)
-* Social Media links
+- Social Media links
     - Visible in the footer across mobile and desktop
     - Click each icon on each of the three pages
-    - Social sites open in a new tab
+    - Note when you hover over each icon, they get bigger
+    - Social media sites open in a new tab
     - Each social icon brings you to the correct social media site
 
-#### Navigation links on index.html
+#### Home Page
+* Contains a header and a footer
+* Contains a hero image with a jumbotron and a modal button
+* Check modal component
+    - Go to to index.html page
+    - Click the "SUBSCRIBE!" button
+    - Attempt to submit the empty form to confirm that an error message appears for the empty input box
+    - Attempt to submit the form using an email missing the "@" symbol to confirm an error message appears requesting you include the "@" symbol
+    - Attempt to sumbit the form with all inputs correctly filled in to confirm page reloads once submitted
+* Contains a quote container underneath the hero image
+* Contains an image to the left with "About Us" text to the right 
+    - In mobile view the image is displayed beneath the quote and the "About Us" text beneath the image
 * "contact us" in "ABOUT US" section
     - Go to index.html page
     - Scroll to "ABOUT US" section
     - Click the "contact us" text with a heavier font-weight than the surrounding text
+    - Note the colour change when you hover over it from #FBF7F0 to #799e82
     - It will redirect you to the contact.html page
 * "gallery" in "ABOUT US" section
     - Go to index.html page
     - Scroll to "ABOUT US" section
     - Click the "gallery" text with a heavier font-weight than the surrounding text
+    - Note the colour change when you hover over it from #FBF7F0 to #799e82
     - It will redirect you to the gallery.html page
 
-#### Navigation links on gallery.html
-* "Click to top of page" link at the bottom of gallery.html page on mobile device
-    - Go to gallery.html page
-    - Scroll down the page to the bottom of the images
-    - Click the link "Click to top of page"
-    - You are brought to the top of the gallery.html page
+#### Gallery Page
+* Contains a header and footer
+* Contains 18 images split into three sections with each section relating to a certain hike
+* In desktop view, the images are organised into 3 per row
+    - In mobile view, the images are staked in a single column
+    - In mobile view, there is an arrow pointing up above the footer linking to the top of the page
 
 ***
  
-### Modal Component
-* Check modal component on desktop
-    - Go to to index.html page
-    - Click the "SUBSCRIBE!" button
-    - Attempt to submit the empty form to confirm that an error message appears for the empty input box
-    - Attempt to submit the form with an email missing the "@" symbol
-    - Attempt to sumbit the form with all inputs correctly filled in to confirm page reloads once submitted
-* Check modal component on mobile
-    - Repeat the above steps on a mobile device
-
-***
-
-### Contact Form 
-* Contact form on contact.html
+#### Contact Page
+* Contains a header and footer
+* Contains an image with a jumbotron of text
+* Check the contact form: 
     - Go to the contact.html page
     - Attempt to submit the empty form to confirm that an error message appears for the empty input box
-    - Attempt to submit the form with an email missing the "@" symbol to confirm appropriate error message appears
+    - Attempt to submit the form using an email missing the "@" symbol to confirm an error message appears requesting you include the "@" symbol
     - Attempt to sumbit the form with all inputs correctly filled in to confirm page reloads once submitted
-
-***
-
-### Hover Transitions
-* Test hover elements found across all three pages
-    - Open the index.html, gallery.html and contact.html pages and test the following on each page:
-        - In the header and footer, hover over the site logo to observe the logo enlarge
-        - In the header, hover over the navbar items "Home", "Gallery" and "Contact" to observe each individually get bigger
-        - In the footer, hover over the "Contact us" anchor tag and observe the colour change from #FBF7F0 to #799e82
-        - In the footer, hover over the social media icons and observe both the icons grow and the colour change from #FBF7F0 to #799e82
-        - In the footer, hover over the telepohone number and observe the colour change from #FBF7F0 to #799e82
-* Test hover elements found on index.html and contact.html
-    - Open the index.html and contact.html pages and test the following on each page:
-        - Hover over the respective "SUBSCRIBE" and "SUBMIT button on each page and observe the button reverse font colour to background colour
-* Test hover elements found on index.html
-    - Open index.html
-        - Hover over the "contact us" and "gallery" text in the "ABOUT US" section and observe the font colour change from #383737 to #799e82
 
 ***
 
@@ -362,12 +350,9 @@ In Lighthouse, scores from 90-100(green) are considered good, scores from 50-89(
     - Ensure "Mobile" is ticked and click "Generate Report"
         - index.html: Scored 83 in "Performance", 95 in "Accessibility" and 93 in "Best Practises"
         - gallery.html: Scored 95 in "Performance", 95 in "Accessibility" and 93 in "Best Practises"
-        - contact.html: Scored 91 in "Performance", 96 in "Accessibility" and 93 in "Best Practises"
+        - contact.html: Scored 90 in "Performance", 96 in "Accessibility" and 93 in "Best Practises"
 
 ***
-
-### Spell Check
-* I used [Reverso](https://www.reverso.net/spell-checker/english-spelling-grammar/) to perform a spell check on my README.md
 
 ## Issues and Solutions
 * My index.html Lighthouse score for performace was 83 which falls in the "needs improvement" category. I tried compressing the hero image further to 
@@ -417,6 +402,7 @@ Throughout development, three primary commands were used with the CLI [Git](http
 3. Copy the url visible underneath "https://github.com/shielh/Only-Hikers-MS1.git"
 4. Using your preferred IDE, type the command "git clone" followed by the above url
 5. A clone of your project will be created on your device 
+6. Open the clone folder
 
 ## Credits
 
