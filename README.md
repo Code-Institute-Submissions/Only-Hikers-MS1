@@ -4,13 +4,12 @@
 
 * [Project Overview](#project-overview)
 * [User Experience](#user-experience)
-    * [Project Goals](#project-goals)
     * [User Stories](#user-stories)
     * [Design](#design)
         * [1. Font](#1-font)
         * [2. Color Scheme](#2-color-scheme)
         * [3. Logo](#3-logo)
-        * [4. Wireframing](#5-wireframing)
+        * [4. Wireframing](#4-wireframing)
 * [Features](#features)
     * [Existing Features](#existing-features)
     * [Features Left to Implement](#features-left-to-implement)
@@ -19,8 +18,8 @@
     * [Frameworks Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 * [Testing](#testing)
     - [Responsivity across devices](#responsivity-across-devices)
-    - [HTML and CSS Validator Tests](#html-and-css-validator-tests)]
-    - [Test Cases](#navigation-links)
+    - [HTML and CSS Validator Tests](#html-and-css-validator-tests)
+    - [Test Cases](#test-cases)
         - [Header](#header)
         - [Footer](#footer)
         - [Home Page](#home-page)
@@ -51,26 +50,19 @@ A live verson of my site can be found <a href="https://shielh.github.io/Only-Hik
 This milestone project has been my first ever solo coding project where I aimed to showcase the skills learnt thus far.
 This project is a static front-end site built using HTML and CSS in conjunction with the Bootstrap Framework to create a responsive, mobile-first approach webpage.
 
-Travel and hiking have always been two huge passions of mine so the idea for this project came about throughout lockdown this year when I was restricted 
-from travelling anywhere overseas. I began to explore and discover hikes and trails in Ireland that are some of the most beauitful I have ever seen. 
-After all these hikes, I had so many beautiful photos of Ireland and nowhere to showcase them. A picture is worth a thousand words, right?
+Travel and hiking have always been two huge passions of mine so the idea for this project stemmed from that and the fact that I had so many 
+amazing photos from 2020 of hikes in Ireland. I think a lot of people travel overseas to see beautiful parts of the world and we don't 
+fully appreciate what we have on our doorstep.
 
 My goal for this site is to spread the word about hiking in Ireland and hopefully inspire people to get out and experience it for themselves.
 
 ## Responsive site
 
-Using the website <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, I got the below image showing what the site looks like across all devices.
+Using the website <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, I got the image that you see below displaying my websites home 
+page across mobile, tablet and desktop.
 
  ![Website Mockup](assets/uxd/mockup/am-i-responsive-mockup.PNG)
 ## User Experience
-
-#### Project Goals
-
-- To build a fully responsive website across all devices 
-- To create an easy-to-use website that is simple to navigate
-- To set up the basic layout and content for this webpage which can be added to in the future
-- To inspire users through images of breathtaking scenery to get out and explore our beauitful country
-- To have a contact form where like-minded hiking individuals or people that are keen to start can get in touch  
  
 #### User Stories
 
@@ -84,7 +76,7 @@ Using the website <a href="http://ami.responsivedesign.is/">Am I Responsive</a>,
 ### 1. Font
 I used <a href="https://fontpair.co/">Font Pair</a> to choose the two main fonts for my website which are
  <a href="https://fonts.google.com/specimen/Roboto">'Roboto'</a> and <a href="https://fonts.google.com/specimen/Nunito"> 'Nunito'.</a>
- I'll use Roboto for the headings of the site and Nunito for the body, both of which are easy to read for the users.
+ I'll use Roboto for the headings of the site and Nunito for the body, both of which are easy for the users to read.
 
 ### 2. Color Scheme
 I used <a href="https://colorhunt.co/palette/">Color Hunt</a> to pick the colors for my website. I wanted to pick earthy tones to tie in with the concept of nature and hiking. 
@@ -111,21 +103,21 @@ background so it could fit into any header color of my choosing.
 ### 4. Wireframing
 
 I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes for my project in order to plan out the layout of the webpage on both desktop and mobile devices.
-* Large device Wireframe for Home Page. Alternatively you can view the wireframe here : [Landing Page Desktop](assets/uxd/balsamiqWireframe/LandingPageDesktop.png)
- and [Landing Page Mobile](assets/uxd/balsamiqWireframe/LandingPageMobile.png)
+* Wireframes for Home Page. Alternatively you can view the wireframes here : [Home Page Desktop](assets/uxd/balsamiqWireframe/HomePageDesktop.png)
+ and [Home Page Mobile](assets/uxd/balsamiqWireframe/HomePageMobile.png)
 
 ![Home Page Wireframe](assets/uxd/balsamiqWireframe/HomePageDesktop.png)
 ![Mobile Home Page Wireframe](assets/uxd/balsamiqWireframe/HomePageMobile.png)
 
 
-* Large device Wireframe for Gallery Page. Alternatively you can view the wireframe here : [Gallery Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
+* Wireframes for Gallery Page. Alternatively you can view the wireframes here : [Gallery Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
 and [Gallery Page Mobile](assets/uxd/balsamiqWireframe/GalleryPageMobile.png)
 
 ![Gallery Page Wireframe](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png)
 ![Mobile Gallery Page Wireframe](assets/uxd/balsamiqWireframe/GalleryPageMobile.png)
 
 
-* Large device Wireframe for Contact Page. Alternatively you can view the wireframe here : [Contact Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
+* Wireframes for Contact Page. Alternatively you can view the wireframes here : [Contact Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
 and [Contact Page Mobile](assets/uxd/balsamiqWireframe/ContactPageMobile.png)
 
 ![Contact Page Wireframe](assets/uxd/balsamiqWireframe/ContactPageDesktop.png)
@@ -134,7 +126,9 @@ and [Contact Page Mobile](assets/uxd/balsamiqWireframe/ContactPageMobile.png)
 ## Features
 ### Existing Features
 #### Features found on all three:
-* Headers are sticky across all devices and contain the logo with an anchor tag to the home page and the navbar has anchor tags to their corresponding pages. 
+* Headers are sticky across all pages and devices 
+* Headers contain the site logo with an anchor tag to the home page and the navbar has anchor tags to their 
+corresponding pages. 
 * Headers on mobile devices contain the navbar in the form of a hamburger menu to use the screen space more efficiently.
 
 See below the difference between desktop and mobile view:
@@ -145,9 +139,10 @@ See below the difference between desktop and mobile view:
 <br>
 ![Header on Mobile Dropdown](assets/images/testing/header-mobile-alt.PNG)
 
-* Footers across all devices contain the sites logo with an anchor tag to the home page and a link to the contact page .
-On desktop view, social media icons are located on the right side of the footer and are linked to the relevant social media sites opening a new tab when clicked. 
-The footer also contains the address and phone number of the website located on the left of the footer.
+* Footers across all devices contain the site logo with an anchor tag to the home page and a link to the contact page .
+* On desktop view, social media icons are located on the right side of the footer and are linked to the relevant social media sites opening a new tab when clicked. 
+* Footers also contains the address and phone number of the website located on the left of the footer on desktop view.
+    - On mobile, all footer sections are stacked on top of eachother
 
 See below the difference between desktop and mobile view:
 <br>
@@ -157,16 +152,16 @@ See below the difference between desktop and mobile view:
 
 
 #### Features unique to Home Page:
-- Large hero-image spanning across entire width of the page with a "Subscribe" modal button inside
-- Modal contains a name input box, an email input box and a submit button
-- A text area with a quote on hiking inside
+- Large hero-image spanning across entire width of the page with a "Subscribe" modal button inside a jumbotron
+- Modal contains a form with a name input box, an email input box and a submit button
+- A text area with a quote on hiking
 - An image of the OnlyHikers page owners
-- Text area with brief introduction on the owners and what the page is about
+- Text area with a brief introduction from the owners and details on what the page is about
 
 #### Features unique to Gallery Page:
 - 6 thumbnail images for 3 different hikes, making a total of 18 images
 - On mobile devices, all 18 images appear vertically with one per row to make the image a better size for the viewer
-- On mobile devices, there is a link "click to top of page" to bring the user to the top of the page rather than scrolling the whole way up
+- On mobile devices, there is an arrow at the bottom of the gallery to bring the user to the top of the page
 
 #### Features unique to Contact Page:
 - Large image under the navbar with text inside a jumbotron positioned inside
@@ -174,12 +169,13 @@ See below the difference between desktop and mobile view:
 
  
 ### Features Left to Implement
-- Events page where users can book into hikes as spaces will be limited due to health and safety
-- Expand on gallery and implement bootstraps carousel component for a nice slideshow efficiently
-- Introduce a blog page and enable commenting on blogs and gallery to better connect users and open up the site to discussions
-- Set up the Back End script so that the subscription modal and contact form are sent for processing
+- Events page where users can book into hikes (as spaces will be limited due to health and safety guidelines)
+- Add more images to the gallery page and implement bootstraps carousel component 
+- Introduce a blog page and enable commenting on blogs and gallery images to help connect users and open the site 
+up for discussions
+- Set up the Back End script so that the subscription modal and contact form information is processed
 
-## Technologies Used
+## Technology Used
 
 ### Languages Used
 
@@ -187,25 +183,25 @@ See below the difference between desktop and mobile view:
 - [CSS3](https://en.wikipedia.org/wiki/CSS) - I used CSS as the primary language for styling the sites content
 
 ### Frameworks Libraries and Programs Used
-
+- [GitHub](https://github.com/) <br>
+This is the hosting site where I first created the repository for this webpage and also where the live site is deployed from 
+- [Git](https://git-scm.com/) <br>
+This is the version control software used where can I commit and push the updated information to the hosting website GitHub
 - [Bootstrap](https://getbootstrap.com/) <br>
-Used to help in the design and layout of the website in conjunction with HTML and CSS
+I used Bootstrap to help in the design and layout of the website in conjunction with HTML and CSS
 - [Font Awesome](https://fontawesome.com/) <br>
-I used the icons from this site for the social media anchor tags in the footer
+I used the icons from this site for the social media icons in the footer and the arrow at the bottom of the 
+gallery page
 - [Balsamiq](https://balsamiq.com/) <br>
 I used this to create my rough wireframes
 - [Google Fonts](https://fonts.google.com/) <br>
 I used Google Fonts to import my two fonts for this site, Roboto and Nunito
 - [Color Hunt](https://colorhunt.co/)<br>
-I found the palette of colours I would use for my site here
-- [GitHub](https://github.com/) <br>
-This is the hosting site where I first created the repository for this webpage and also where the live site is deployed from 
-- [Git](https://git-scm.com/) <br>
-This is the version control software used where can I commit and push the updated information to the hosting website GitHub
+I found the palette of colours I used here
 - [Free Logo Design](https://www.freelogodesign.org/) <br>
-I created my free logo here for my site
+I created my free logo here 
 - [Font Pair](https://fontpair.co/) <br>
-I chose my two complementary fonts for my webpage here
+I chose my two complementary fonts here
 - [Tiny JPG](https://tinyjpg.com/) <br>
 I used this to compress my images
 - [Paint 3D](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) <br>
@@ -218,40 +214,43 @@ I used this to check the spelling and grammar of my README.md file
 ## Testing
 
 The aim of this testing section is to:
-1. Ensure that my site is fully responsive across all devices ranging from mobile (<576px) to large desktop screens (>1200px) and across different browsers including Chrome, Safari, Mozilla and Opera.  
-2. Perform tests on the HTML and CSS code through their respective validators. 
-3. Test each navigation link on the webpage to make sure it brings you to the correct page including social links
-4. Test the modal subscription component to ensure it opens up the subscription form across all devices on index.html page
-5. Ensure the form component on the Contact page is functioning properly requiring both inputs to be in the correct format before submit button will work
-6. Check hovering over the site logo, nav-items in the header, "contact" and "gallery" in About Us section on index.html and site logo, "contact us", 
-telephone number and social icons have the appropriate response
-7. Run DevTools Lighthouse across all pages of the site in both mobile and desktop versions
+* Ensure that my site is fully responsive across all devices ranging from mobile (<576px) to large desktop screens (>1200px) and across different browsers including Chrome, Safari, Mozilla and Opera.  
+* Perform tests on the HTML and CSS code through their respective validators. 
+* Test Cases
+    - Header
+    - Footer
+    - Home Page
+    - Gallery Page
+    - Contact Page
+* Run DevTools Lighthouse report
 
 *** 
 
 ### Responsivity across devices
 - I checked the site across [Google Chrome](https://www.google.com/intl/en_ie/chrome/), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/), [Safari](https://www.apple.com/safari/) 
-and [Opera](https://www.opera.com/) and all were completely responsive with all pages viewing with layout remaining intact.
+and [Opera](https://www.opera.com/) and all pages were completely responsive  with the layout remaining intact.
 - Using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), (to open I right-clicked anywhere on my website and clicked "Inspect"), I ran my site in mobile/tablet display 
 across the following devices: Galaxy Note 3, Galaxy S III, Moto G4, iPhone 4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro. Everything 
-ran normally on these devices.
+ran normally on these devices. I also sent my site to some friends and family to open on their phones and nobody had any issues.
 
 ***
  
 ### HTML and CSS Validator Tests
-* W3C HTML Validator
-    - I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by Direct Input" option and pasted index.html, gallery.html and contact.html all in separately.
-    - I removed the h5 elements as a child element of the label. I removed p-0 from the inline style for h4. I removed the space between the "tel:" and the "555" and finally I matched the aria-describedly 
-with its appropriate ID element. 
-    - I ran the code through [W3C HTML Validator](https://validator.w3.org/) again and got the following message "Document checking completed. No errors or warnings to show."
-    
-    All pages initally came up with the following errors:
+1. W3C HTML Validator
+- I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by Direct Input" option and pasted index.html, gallery.html and contact.html all in separately.
+- All pages initally came up with the following errors:
 
 ![HTML Errors](assets/images/testing/html-validator-error.PNG)
 
-* Similarly, I ran the code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
-    - I selected the "by Direct Input" option 
-    - I received the message "Congratulations! No Error Found." 
+- I removed the h5 elements as a child element of the label. I removed p-0 from the inline style for h4. I removed the space between the "tel:" and the "555" and finally I matched the aria-describedly 
+with its appropriate ID element. 
+- I ran the code through [W3C HTML Validator](https://validator.w3.org/) again and got the following message "Document checking completed. No errors or warnings to show."
+    
+    
+
+2. Similarly, I ran the code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
+- I selected the "by Direct Input" option and pasted my style.css code in
+- I received the message "Congratulations! No Error Found." 
 
 ***
 
@@ -324,7 +323,7 @@ with its appropriate ID element.
  
 #### Contact Page
 * Contains a header and footer
-* Contains an image with a jumbotron of text
+* Contains an image with a jumbotron containing text
 * Check the contact form: 
     - Go to the contact.html page
     - Attempt to submit the empty form to confirm that an error message appears for the empty input box
@@ -421,6 +420,6 @@ Throughout development, three primary commands were used with the CLI [Git](http
 
 - A big thank you to my mentor Rohit Sharma for his help and guidance throughout my first project
 - Thanks to everyone in the Slack community especially my September onboarding channel where my peers were always quick to respond to any questions I had
-- Thanks to my sister for going on all these hikes with me throughout this crazy pandemic year, keeping us sane 
+- Thanks to my sister for going on all these hikes with me throughout this crazy pandemic year
 
 
