@@ -18,7 +18,7 @@
     * [Languages Used](#languages-used)
     * [Frameworks Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 * [Testing](#testing)
-    1. [Responsive across devices](#responsive-across-devices)
+    1. [Responsivity across devices](#responsivity-across-devices)
     2. [HTML and CSS Validator Tests](#html-and-css-validator-tests)]
     3. [Navigation links](#navigation-links)
     4. [Modal Component](#modal-component)
@@ -26,6 +26,7 @@
     6. [Hover Transitions](#hover-transitions)
     7. [Lighthouse Tool](#lighthouse-tool)
     8. [User Stories](#user-stories)
+    9. [Spell Check](#spell-check)
  * [Issues and Solutions](#issues-and-solutions)   
 * [Deployment](#deployment)
     * [Initial Creation](#initial-creation)
@@ -47,14 +48,14 @@
 
 A live verson of my site can be found <a href="https://shielh.github.io/Only-Hikers-MS1/">here</a>.
 
-This milestone project is my first ever solo coding project where I aim to showcase the skills learnt thus far.
+This milestone project has been my first ever solo coding project where I aimed to showcase the skills learnt thus far.
 This project is a static front-end site built using HTML and CSS in conjunction with the Bootstrap Framework to create a responsive, mobile-first approach webpage.
 
 Travel and hiking have always been two huge passions of mine so the idea for this project came about throughout lockdown this year when I was restricted 
 from travelling anywhere overseas. I began to explore and discover hikes and trails in Ireland that are some of the most beauitful I have ever seen. 
 After all these hikes, I had so many beautiful photos of Ireland and nowhere to showcase them. A picture is worth a thousand words, right?
 
-My goal for this site is to inspire and spread the word about hiking in Ireland and how anyone can do it.
+My goal for this site is to spread the word about hiking in Ireland and hopefully inspire people to get out and experience it for themselves.
 
 ## Responsive site
 
@@ -74,7 +75,7 @@ Using the website <a href="http://ami.responsivedesign.is/">Am I Responsive</a>,
 #### User Stories
 
 * As a user, I want a website that is easy to navigate so I can access all of the information without any challenges
-* As a user who is new to hiking, I want to be able to find a contact form quickly in order to get in touch with all my questions
+* As a user who is new to hiking, I want to be able to find a contact form quickly in order to get in touch with any questions
 * As a user who enjoys the great outdoors, I want lots of visually pleasing images that capture the beauty of Ireland
 * As a user living in Ireland, I want ideas for my next hiking getaway 
 * As a user who tends to use their mobile more than desktop, I want a webpage that is fully responsive across all devices 
@@ -98,7 +99,7 @@ The colors are as follows from top to bottom (as well as using #3f3f3c in some p
 
 ### 3. Logo
 
-I used <a href="https://www.freelogodesign.org/">Free Logo Design</a> , a free website to make my logo for my website. 
+I used <a href="https://www.freelogodesign.org/">Free Logo Design</a> , a free website to make the logo for my website. 
 I entered the name of the site, "Only Hikers", and then selected the "Environmental & Green" category which gave me a 
 multitude of logos to choose from. I chose the logo that I found most visually pleasing and also one with a transparent 
 background so it could fit into any header color of my choosing.
@@ -132,10 +133,8 @@ and [Contact Page Mobile](assets/uxd/balsamiqWireframe/ContactPageMobile.png)
 
 ## Features
 ### Existing Features
-This project consists of three pages.
-
-### Features found on all three:
-* Headers are fixed across all devices and contain the logo with an anchor tag to the home page and the navbar has anchor tags to their corresponding pages. 
+#### Features found on all three:
+* Headers are sticky across all devices and contain the logo with an anchor tag to the home page and the navbar has anchor tags to their corresponding pages. 
 * Headers on mobile devices contain the navbar in the form of a hamburger menu to use the screen space more efficiently.
 
 See below the difference between desktop and mobile view:
@@ -157,20 +156,20 @@ See below the difference between desktop and mobile view:
 ![Footer on Mobile](assets/images/testing/footer-mobile.PNG)
 
 
-### Features unique to Home Page:
+#### Features unique to Home Page:
 - Large hero-image spanning across entire width of the page with a "Subscribe" modal button inside
 - Modal contains a name input box, an email input box and a submit button
 - A text area with a quote on hiking inside
 - An image of the OnlyHikers page owners
 - Text area with brief introduction on the owners and what the page is about
 
-### Features unique to Gallery Page:
+#### Features unique to Gallery Page:
 - 6 thumbnail images for 3 different hikes, making a total of 18 images
 - On mobile devices, all 18 images appear vertically with one per row to make the image a better size for the viewer
 - On mobile devices, there is a link "click to top of page" to bring the user to the top of the page rather than scrolling the whole way up
 
-### Features unique to Contact Page:
-- Large image under the navbar with text inside
+#### Features unique to Contact Page:
+- Large image under the navbar with text inside a jumbotron positioned inside
 - Contact form with three different inputs, 'Name', 'Email Address' and 'Message' and a submit button underneath
 
  
@@ -213,6 +212,8 @@ I used this to compress my images
 I used this progran to crop my site logo while still maintaing the clear background
 - [Rapid Tables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
 I used this to convert my dark green colour to rgb to use for the slightly transparent jumbotron and contact form background
+- [Reverso](https://www.reverso.net/spell-checker/english-spelling-grammar/)
+I used this to check the spelling and grammar of my README.md file
 
 ## Testing
 
@@ -229,7 +230,7 @@ telephone number and social icons have the appropriate response
 *** 
 
 1. 
-### Responsive across devices
+### Responsivity across devices
 - I checked the site across [Google Chrome](https://www.google.com/intl/en_ie/chrome/), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/), [Safari](https://www.apple.com/safari/) 
 and [Opera](https://www.opera.com/) and all were completely responsive with all pages viewing with layout remaining intact.
 - Using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), (to open I right-clicked anywhere on my website and clicked "Inspect"), I ran my site in mobile/tablet display 
@@ -384,6 +385,10 @@ In Lighthouse, scores from 90-100(green) are considered good, scores from 50-89(
 * As a user who tends to use their mobile more than desktop, I want a webpage that is fully responsive across all devices 
     - Testing was carried out via DevTools and Lighthouse to ensure the performance of the website was responsive across mobiles, tablets and desktops
 
+9. 
+### Spell Check
+* I used [Reverso](https://www.reverso.net/spell-checker/english-spelling-grammar/) to perform a spell check on my README.md
+
 ## Issues and Solutions
 * My index.html Lighthouse score for performace was 83 which falls in the "needs improvement" category. I tried compressing the hero image further to 
 help reduce the "Lowest Contentful Paint" time but it didn't make much of a difference. I tried resizing the image to have a mobile version and then 
@@ -394,6 +399,9 @@ footer much larger than it needed to be. I discover there was an unclosed "a tag
 * Another issue I faced was deviating from my original wireframes. You can see the original wireframes [here](assets/uxd/balsamiqWireframe/oldWireframes). I ended up adding a hero image 
 and rejigging the layout of the site. I think because it was my first webpage I needed to play around with the layout a little before deciding on a concrete look for the website. I can 
 see going forward though the benefits of having a set wireframe before starting any coding to save time.
+* When styling my navbar the hamburger icon disappeared. The area was still functioning when I clicked it i.e. the dropdown menu was still working but I just couldn't see the icon. I realised this 
+was due to me changing the style of the already predefined style that comes with "navbar-light". I had the option of using a Font Awesome icon and styling it in style.css or keep the navbar-light 
+style. I opted to keep the navbar-light settings as it tied in well with my sites colour scheme any way.
 
 ## Deployment
 ### Initial Creation
